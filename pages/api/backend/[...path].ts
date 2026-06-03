@@ -1,4 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
+import path from "path";
 
 export const config = {
   api: {
@@ -14,7 +15,8 @@ let app: ExpressHandler | null = null;
 
 function getBackendApp() {
   if (!app) {
-    app = require("../../../server.js") as ExpressHandler;
+    const nodeRequire = eval("require") as NodeRequire;
+    app = nodeRequire(path.join(process.cwd(), "server.js")) as ExpressHandler;
   }
   return app;
 }
