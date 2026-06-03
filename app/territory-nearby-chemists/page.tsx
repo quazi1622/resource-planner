@@ -63,6 +63,17 @@ function errorMessage(error: unknown, fallback: string) {
   return error instanceof Error ? error.message : fallback;
 }
 
+async function readJsonResponse(response: Response) {
+  const text = await response.text();
+  if (!text) return null;
+
+  try {
+    return JSON.parse(text);
+  } catch {
+    throw new Error(text.slice(0, 220) || `Request failed with HTTP ${response.status}`);
+  }
+}
+
 function confidenceClass(confidence: string) {
   if (confidence === 'high') return 'bg-emerald-50 text-emerald-700 border-emerald-200';
   if (confidence === 'medium') return 'bg-sky-50 text-sky-700 border-sky-200';
@@ -148,8 +159,8 @@ export default function TerritoryNearbyChemistsPage() {
   const fetchDoctors = async () => {
     const params = new URLSearchParams({ team, rse, ase, territory });
     const response = await fetch(`${API_BASE_URL}/territory-nearby/doctors?${params}`);
-    const data = await response.json();
-    if (!response.ok) throw new Error(data.error || `Doctor fetch failed with HTTP ${response.status}`);
+    const data = await readJsonResponse(response);
+    if (!response.ok) throw new Error(data?.error || `Doctor fetch failed with HTTP ${response.status}`);
     const nextDoctors = data.doctors || [];
     const nextDoctor = findFirstDoctorWithCoordinate(nextDoctors, locationType);
     const nextLocation = findPreferredLocation(nextDoctor, locationType);
@@ -168,8 +179,8 @@ export default function TerritoryNearbyChemistsPage() {
       limit: '20',
     });
     const response = await fetch(`${API_BASE_URL}/territory-nearby/chemist-shops?${params}`);
-    const data = await response.json();
-    if (!response.ok) throw new Error(data.error || `Nearby chemist fetch failed with HTTP ${response.status}`);
+    const data = await readJsonResponse(response);
+    if (!response.ok) throw new Error(data?.error || `Nearby chemist fetch failed with HTTP ${response.status}`);
     setNearbyResult(data);
   };
 

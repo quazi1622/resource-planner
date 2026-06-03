@@ -1,5 +1,4 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import path from "path";
 
 export const config = {
   api: {
@@ -15,15 +14,22 @@ let app: ExpressHandler | null = null;
 
 function getBackendApp() {
   if (!app) {
-    const nodeRequire = eval("require") as NodeRequire;
-    app = nodeRequire(path.join(process.cwd(), "server.js")) as ExpressHandler;
+    app = require("../../../server.js") as ExpressHandler;
   }
   return app;
 }
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  const originalUrl = req.url || "/";
-  const rewrittenUrl = originalUrl.replace(/^\/api\/backend/, "") || "/";
-  req.url = rewrittenUrl.startsWith("/") ? rewrittenUrl : `/${rewrittenUrl}`;
-  getBackendApp()(req, res);
+  try {
+    const originalUrl = req.url || "/";
+    const rewrittenUrl = originalUrl.replace(/^\/api\/backend/, "") || "/";
+    req.url = rewrittenUrl.startsWith("/") ? rewrittenUrl : `/${rewrittenUrl}`;
+    getBackendApp()(req, res);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Backend proxy failed";
+    console.error("Backend proxy error:", message);
+    if (!res.headersSent) {
+      res.status(500).json({ success: false, error: message });
+    }
+  }
 }
