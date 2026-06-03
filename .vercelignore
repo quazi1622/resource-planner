@@ -1,0 +1,15 @@
+.next
+node_modules
+screenshots
+roadmaps
+*.xlsx
+~$*.xlsx
+*.csv
+*.png
+!public/**/*.png
+*.log
+mkcert.exe.exe
+*.sql
+PHARMACY_COORDINATE_ENDPOINT_WALKTHROUGH.md
+CLAUDE.md
+AGENTS.md

@@ -1,0 +1,423 @@
+'use client';
+
+import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { Hospital, Building2, Navigation, Loader2 } from 'lucide-react';
+import { supabase } from '@/utils/supabase';
+
+// -------------------------------------------------------------------
+// Script loader
+// -------------------------------------------------------------------
+function loadGoogleMapsScript(): Promise<void> {
+  return new Promise((resolve, reject) => {
+    if (typeof google !== 'undefined' && google.maps?.places) { resolve(); return; }
+    if (document.getElementById('gmap-script')) {
+      const interval = setInterval(() => {
+        if (typeof google !== 'undefined' && google.maps?.places) { clearInterval(interval); resolve(); }
+      }, 100);
+      return;
+    }
+    const script = document.createElement('script');
+    script.id = 'gmap-script';
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places`;
+    script.async = true;
+    script.defer = true;
+    script.onload = () => {
+      const interval = setInterval(() => {
+        if (typeof google !== 'undefined' && google.maps?.places) { clearInterval(interval); resolve(); }
+      }, 50);
+    };
+    script.onerror = () => reject(new Error('Google Maps script failed to load. Check your API key.'));
+    document.head.appendChild(script);
+  });
+}
+
+// -------------------------------------------------------------------
+// Pac-container style (suggestions dropdown above map)
+// -------------------------------------------------------------------
+let pacStyleInjected = false;
+function injectPacStyle() {
+  if (pacStyleInjected) return;
+  const style = document.createElement('style');
+  style.innerHTML = `
+    .pac-container {
+      z-index: 99999 !important;
+      border-radius: 12px;
+      margin-top: 4px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+      font-family: inherit;
+    }
+    .pac-item { font-size: 11px; font-weight: 700; padding: 8px 12px; cursor: pointer; }
+    .pac-item:hover { background: #eff6ff; }
+    .pac-item-query { font-size: 11px; font-weight: 800; color: #1e40af; }
+  `;
+  document.head.appendChild(style);
+  pacStyleInjected = true;
+}
+
+// -------------------------------------------------------------------
+// Geocode a plain text address → { lat, lng }
+// Used as a fallback for Supabase-prefilled addresses where the user
+// hasn't clicked an autocomplete suggestion (so coords is still null)
+// -------------------------------------------------------------------
+function geocodeAddress(address: string): Promise<{ lat: number; lng: number }> {
+  return new Promise((resolve, reject) => {
+    const geocoder = new google.maps.Geocoder();
+    geocoder.geocode(
+      { address, componentRestrictions: { country: 'BD' } },
+      (results, status) => {
+        if (status === google.maps.GeocoderStatus.OK && results?.[0]?.geometry?.location) {
+          resolve(results[0].geometry.location.toJSON() as { lat: number; lng: number });
+        } else {
+          reject(new Error(`Could not geocode "${address}" — status: ${status}`));
+        }
+      }
+    );
+  });
+}
+
+// -------------------------------------------------------------------
+// PlaceSearchInput
+// -------------------------------------------------------------------
+const PlaceSearchInput = ({
+  placeholder,
+  onLocationSelect,
+  defaultValue = '',
+  mapsReady,
+}: {
+  placeholder: string;
+  onLocationSelect: (data: { address: string; coords: { lat: number; lng: number } }) => void;
+  defaultValue?: string;
+  mapsReady: boolean;
+}) => {
+  const inputRef        = useRef<HTMLInputElement>(null);
+  const autocompleteRef = useRef<google.maps.places.Autocomplete | null>(null);
+  const [value, setValue] = useState(defaultValue);
+
+  useEffect(() => { setValue(defaultValue); }, [defaultValue]);
+
+  useEffect(() => {
+    if (!mapsReady || typeof google === 'undefined' || !inputRef.current) return;
+    if (autocompleteRef.current) return;
+
+    injectPacStyle();
+
+    const autocomplete = new google.maps.places.Autocomplete(inputRef.current, {
+      componentRestrictions: { country: 'BD' },
+      fields: ['geometry', 'formatted_address'],
+    });
+    autocompleteRef.current = autocomplete;
+
+    const listener = autocomplete.addListener('place_changed', () => {
+      const place = autocomplete.getPlace();
+      if (place.geometry?.location) {
+        const address = place.formatted_address ?? '';
+        setValue(address);
+        onLocationSelect({
+          address,
+          coords: place.geometry.location.toJSON() as { lat: number; lng: number },
+        });
+      }
+    });
+
+    return () => { google.maps.event.removeListener(listener); };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mapsReady]);
+
+  return (
+    <div className="bg-white p-3 rounded-xl border border-gray-100 shadow-sm focus-within:ring-2 ring-blue-100 transition-all">
+      <input
+        ref={inputRef}
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+        placeholder={placeholder}
+        className="w-full bg-transparent border-none text-xs font-bold text-gray-800 outline-none p-0 focus:ring-0 placeholder:text-gray-300"
+      />
+    </div>
+  );
+};
+
+// -------------------------------------------------------------------
+// Types
+// -------------------------------------------------------------------
+interface LocationData {
+  address: string;
+  coords: { lat: number; lng: number } | null;
+}
+
+interface RouteSpot {
+  Doc_ID: string;
+  Doctor: string;
+  Designation: string;
+  selectedType: 'hospital' | 'chamber';
+  hospitalData: LocationData;
+  chamberData:  LocationData;
+}
+
+// -------------------------------------------------------------------
+// RoutePlan
+// -------------------------------------------------------------------
+export default function RoutePlan({ selectedDoctors }: { selectedDoctors: any[] }) {
+  const [mapsReady,   setMapsReady]   = useState(false);
+  const [generating,  setGenerating]  = useState(false);
+  const [routeError,  setRouteError]  = useState<string | null>(null);
+
+  const mapInstanceRef = useRef<google.maps.Map | null>(null);
+  const rendererRef    = useRef<google.maps.DirectionsRenderer | null>(null);
+
+  const [origin, setOrigin] = useState<LocationData>({ address: '', coords: null });
+  const [routeSpots, setRouteSpots] = useState<RouteSpot[]>(
+    selectedDoctors.map((doc) => ({
+      Doc_ID:        doc.Doc_ID,
+      Doctor:        doc.Doctor,
+      Designation:   doc.Designation,
+      selectedType:  'hospital' as const,
+      hospitalData:  { address: '', coords: null },
+      chamberData:   { address: '', coords: null },
+    }))
+  );
+
+  // 1. Load Maps API
+  useEffect(() => {
+    loadGoogleMapsScript()
+      .then(() => setMapsReady(true))
+      .catch((err) => setRouteError(err.message));
+  }, []);
+
+  // 2. Initialize map on canvas
+  useEffect(() => {
+    if (!mapsReady) return;
+    const canvas = document.getElementById('map-canvas');
+    if (!canvas || mapInstanceRef.current) return;
+
+    mapInstanceRef.current = new google.maps.Map(canvas, {
+      center:            { lat: 23.8103, lng: 90.4125 },
+      zoom:              12,
+      mapTypeControl:    false,
+      streetViewControl: false,
+      fullscreenControl: true,
+    });
+
+    rendererRef.current = new google.maps.DirectionsRenderer({
+      map:             mapInstanceRef.current,
+      suppressMarkers: false,
+      polylineOptions: { strokeColor: '#2563eb', strokeWeight: 5, strokeOpacity: 0.85 },
+    });
+  }, [mapsReady]);
+
+  // 3. Batch-fetch Supabase addresses
+  useEffect(() => {
+    if (selectedDoctors.length === 0) return;
+    const fetchAddresses = async () => {
+      const ids = selectedDoctors.map((d) => d.Doc_ID);
+      const { data, error } = await supabase
+        .from('address')
+        .select('"doc-id", "hospital-address", "chamber-address"')
+        .in('doc-id', ids);
+      if (error) { console.error('Address fetch failed:', error); return; }
+      if (!data) return;
+      setRouteSpots((prev) =>
+        prev.map((spot) => {
+          const row = data.find((r: any) => r['doc-id'] === spot.Doc_ID);
+          if (!row) return spot;
+          return {
+            ...spot,
+            // NOTE: coords stays null here — geocodeAddress() resolves it
+            // on Generate Route if the user hasn't manually picked from dropdown
+            hospitalData: { ...spot.hospitalData, address: row['hospital-address'] ?? '' },
+            chamberData:  { ...spot.chamberData,  address: row['chamber-address']  ?? '' },
+          };
+        })
+      );
+    };
+    fetchAddresses();
+  }, [selectedDoctors]);
+
+  const updateSpotLocation = (docId: string, type: 'hospitalData' | 'chamberData', data: LocationData) => {
+    setRouteSpots((prev) => prev.map((s) => (s.Doc_ID === docId ? { ...s, [type]: data } : s)));
+  };
+
+  // -------------------------------------------------------------------
+  // 4. Generate Route
+  //
+  // For any stop whose coords is null but address is non-empty,
+  // geocodeAddress() is called automatically before building the route.
+  // This handles Supabase-prefilled addresses the user didn't re-select.
+  // -------------------------------------------------------------------
+  const handleGenerateRoute = useCallback(async () => {
+    setRouteError(null);
+
+    if (!mapInstanceRef.current || !rendererRef.current) {
+      setRouteError('Map is not ready yet. Please wait a moment.');
+      return;
+    }
+
+    setGenerating(true);
+
+    try {
+      // Resolve origin coords if needed
+      let resolvedOrigin = { ...origin };
+      if (!resolvedOrigin.coords) {
+        if (!resolvedOrigin.address.trim()) {
+          setRouteError('Please enter a starting location.');
+          setGenerating(false);
+          return;
+        }
+        resolvedOrigin.coords = await geocodeAddress(resolvedOrigin.address);
+      }
+
+      // Resolve each stop's coords if needed
+      const resolvedSpots = await Promise.all(
+        routeSpots.map(async (spot) => {
+          const dataKey = spot.selectedType === 'hospital' ? 'hospitalData' : 'chamberData';
+          const loc     = spot[dataKey];
+
+          if (loc.coords) return { ...spot, [dataKey]: loc }; // already has coords
+
+          if (!loc.address.trim()) {
+            throw new Error(`"${spot.Doctor}" has no address set for ${spot.selectedType}.`);
+          }
+
+          // Geocode the prefilled text address
+          const coords = await geocodeAddress(loc.address);
+          return { ...spot, [dataKey]: { ...loc, coords } };
+        })
+      );
+
+      const stops = resolvedSpots.map((spot) =>
+        spot.selectedType === 'hospital' ? spot.hospitalData : spot.chamberData
+      );
+
+      const destination = stops[stops.length - 1].coords!;
+      const waypoints   = stops.slice(0, -1).map((s) => ({
+        location: s.coords as google.maps.LatLngLiteral,
+        stopover: true,
+      }));
+
+      const service = new google.maps.DirectionsService();
+      service.route(
+        {
+          origin:            resolvedOrigin.coords,
+          destination,
+          waypoints,
+          optimizeWaypoints: false,
+          travelMode:        google.maps.TravelMode.DRIVING,
+        },
+        (result, status) => {
+          setGenerating(false);
+          if (status === google.maps.DirectionsStatus.OK && result) {
+            rendererRef.current!.setDirections(result);
+          } else {
+            setRouteError(`Route failed: ${status}`);
+          }
+        }
+      );
+    } catch (err: any) {
+      setGenerating(false);
+      setRouteError(err.message);
+    }
+  }, [origin, routeSpots]);
+
+  return (
+    <div className="flex flex-col gap-4 p-1 custom-scrollbar overflow-y-auto max-h-[75vh] pb-10">
+
+      {!mapsReady && (
+        <div className="flex items-center gap-2 text-[10px] font-black text-blue-400 uppercase animate-pulse px-1">
+          <Loader2 size={12} className="animate-spin" /> Loading Maps API...
+        </div>
+      )}
+
+      {/* Origin */}
+      <div className="bg-blue-600 rounded-3xl p-5 shadow-xl border border-blue-400">
+        <label className="text-[10px] font-black text-blue-100 uppercase tracking-widest mb-3 block">
+          1. Starting Location
+        </label>
+        <PlaceSearchInput
+          mapsReady={mapsReady}
+          placeholder="Search Raowa Club, Mohakhali..."
+          defaultValue={origin.address}
+          onLocationSelect={(d) => setOrigin({ address: d.address, coords: d.coords })}
+        />
+      </div>
+
+      {/* Doctor stops */}
+      <div className="space-y-6 mt-4">
+        {routeSpots.map((spot, index) => (
+          <div key={spot.Doc_ID} className="bg-white border border-gray-100 rounded-[2rem] p-5 shadow-sm border-b-4 border-b-gray-100">
+            <div className="flex items-center gap-3 mb-5">
+              <span className="w-7 h-7 bg-gray-900 text-white rounded-lg flex items-center justify-center text-[10px] font-black italic">
+                {index + 2}
+              </span>
+              <div>
+                <h3 className="text-xs font-black text-gray-800 uppercase tracking-tighter leading-tight">{spot.Doctor}</h3>
+                <p className="text-[9px] text-gray-400 font-bold uppercase">{spot.Designation}</p>
+              </div>
+            </div>
+
+            <div className="space-y-3">
+
+              {/* Hospital */}
+              <div className={`p-4 rounded-2xl border-2 transition-all ${spot.selectedType === 'hospital' ? 'border-blue-600 bg-blue-50/30' : 'border-gray-50'}`}>
+                <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center gap-2">
+                    <Hospital size={12} className={spot.selectedType === 'hospital' ? 'text-blue-600' : 'text-gray-300'} />
+                    <span className="text-[9px] font-black uppercase text-gray-400">Hospital</span>
+                  </div>
+                  <input type="radio" checked={spot.selectedType === 'hospital'}
+                    onChange={() => setRouteSpots((prev) => prev.map((s) => s.Doc_ID === spot.Doc_ID ? { ...s, selectedType: 'hospital' } : s))}
+                    className="accent-blue-600" />
+                </div>
+                <PlaceSearchInput
+                  key={`hosp-${spot.Doc_ID}-${spot.hospitalData.address}`}
+                  mapsReady={mapsReady}
+                  placeholder="Search or edit hospital address..."
+                  defaultValue={spot.hospitalData.address}
+                  onLocationSelect={(d) => updateSpotLocation(spot.Doc_ID, 'hospitalData', { address: d.address, coords: d.coords })}
+                />
+              </div>
+
+              {/* Chamber */}
+              <div className={`p-4 rounded-2xl border-2 transition-all ${spot.selectedType === 'chamber' ? 'border-blue-600 bg-blue-50/30' : 'border-gray-50'}`}>
+                <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center gap-2">
+                    <Building2 size={12} className={spot.selectedType === 'chamber' ? 'text-blue-600' : 'text-gray-300'} />
+                    <span className="text-[9px] font-black uppercase text-gray-400">Chamber</span>
+                  </div>
+                  <input type="radio" checked={spot.selectedType === 'chamber'}
+                    onChange={() => setRouteSpots((prev) => prev.map((s) => s.Doc_ID === spot.Doc_ID ? { ...s, selectedType: 'chamber' } : s))}
+                    className="accent-blue-600" />
+                </div>
+                <PlaceSearchInput
+                  key={`cham-${spot.Doc_ID}-${spot.chamberData.address}`}
+                  mapsReady={mapsReady}
+                  placeholder="Search or edit chamber address..."
+                  defaultValue={spot.chamberData.address}
+                  onLocationSelect={(d) => updateSpotLocation(spot.Doc_ID, 'chamberData', { address: d.address, coords: d.coords })}
+                />
+              </div>
+
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {routeError && (
+        <p className="text-[9px] font-black text-red-500 uppercase tracking-wide px-1 animate-pulse">
+          ⚠ {routeError}
+        </p>
+      )}
+
+      <button
+        onClick={handleGenerateRoute}
+        disabled={generating || !mapsReady}
+        className="w-full bg-gray-900 text-white py-5 rounded-[1.5rem] font-black text-[10px] uppercase tracking-[0.3em] flex items-center justify-center gap-4 hover:bg-blue-600 transition-all shadow-xl mt-4 disabled:opacity-40 disabled:cursor-not-allowed"
+      >
+        {generating
+          ? <><Loader2 className="w-4 h-4 animate-spin" /> Resolving &amp; Routing...</>
+          : <><Navigation className="w-4 h-4" /> Generate Route</>
+        }
+      </button>
+
+    </div>
+  );
+}

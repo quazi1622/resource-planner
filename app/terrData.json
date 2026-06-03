@@ -1,0 +1,5502 @@
+[
+    {
+      "terr-ase-linker": "aa10",
+      "ase": "A10",
+      "territory": "A11"
+    },
+    {
+      "terr-ase-linker": "aa10",
+      "ase": "A10",
+      "territory": "A12"
+    },
+    {
+      "terr-ase-linker": "aa20",
+      "ase": "A20",
+      "territory": "A21"
+    },
+    {
+      "terr-ase-linker": "aa210",
+      "ase": "A210",
+      "territory": "A211"
+    },
+    {
+      "terr-ase-linker": "aa210",
+      "ase": "A210",
+      "territory": "A212"
+    },
+    {
+      "terr-ase-linker": "aa20",
+      "ase": "A20",
+      "territory": "A22"
+    },
+    {
+      "terr-ase-linker": "aa220",
+      "ase": "A220",
+      "territory": "A221"
+    },
+    {
+      "terr-ase-linker": "aa220",
+      "ase": "A220",
+      "territory": "A222"
+    },
+    {
+      "terr-ase-linker": "aa230",
+      "ase": "A230",
+      "territory": "A231"
+    },
+    {
+      "terr-ase-linker": "aa230",
+      "ase": "A230",
+      "territory": "A232"
+    },
+    {
+      "terr-ase-linker": "aa230",
+      "ase": "A230",
+      "territory": "A233"
+    },
+    {
+      "terr-ase-linker": "aa240",
+      "ase": "A240",
+      "territory": "A241"
+    },
+    {
+      "terr-ase-linker": "aa240",
+      "ase": "A240",
+      "territory": "A242"
+    },
+    {
+      "terr-ase-linker": "aa240",
+      "ase": "A240",
+      "territory": "A243"
+    },
+    {
+      "terr-ase-linker": "aa250",
+      "ase": "A250",
+      "territory": "A251"
+    },
+    {
+      "terr-ase-linker": "aa250",
+      "ase": "A250",
+      "territory": "A252"
+    },
+    {
+      "terr-ase-linker": "aa30",
+      "ase": "A30",
+      "territory": "A31"
+    },
+    {
+      "terr-ase-linker": "aa310",
+      "ase": "A310",
+      "territory": "A311"
+    },
+    {
+      "terr-ase-linker": "aa320",
+      "ase": "A320",
+      "territory": "A321"
+    },
+    {
+      "terr-ase-linker": "aa320",
+      "ase": "A320",
+      "territory": "A322"
+    },
+    {
+      "terr-ase-linker": "aa330",
+      "ase": "A330",
+      "territory": "A331"
+    },
+    {
+      "terr-ase-linker": "aa330",
+      "ase": "A330",
+      "territory": "A332"
+    },
+    {
+      "terr-ase-linker": "aa340",
+      "ase": "A340",
+      "territory": "A341"
+    },
+    {
+      "terr-ase-linker": "aa350",
+      "ase": "A350",
+      "territory": "A351"
+    },
+    {
+      "terr-ase-linker": "aa350",
+      "ase": "A350",
+      "territory": "A352"
+    },
+    {
+      "terr-ase-linker": "aa360",
+      "ase": "A360",
+      "territory": "A361"
+    },
+    {
+      "terr-ase-linker": "aa360",
+      "ase": "A360",
+      "territory": "A362"
+    },
+    {
+      "terr-ase-linker": "aa370",
+      "ase": "A370",
+      "territory": "A371"
+    },
+    {
+      "terr-ase-linker": "aa40",
+      "ase": "A40",
+      "territory": "A41"
+    },
+    {
+      "terr-ase-linker": "aa40",
+      "ase": "A40",
+      "territory": "A42"
+    },
+    {
+      "terr-ase-linker": "aa50",
+      "ase": "A50",
+      "territory": "A51"
+    },
+    {
+      "terr-ase-linker": "aa50",
+      "ase": "A50",
+      "territory": "A52"
+    },
+    {
+      "terr-ase-linker": "aa60",
+      "ase": "A60",
+      "territory": "A61"
+    },
+    {
+      "terr-ase-linker": "ab10",
+      "ase": "B10",
+      "territory": "B11"
+    },
+    {
+      "terr-ase-linker": "ab10",
+      "ase": "B10",
+      "territory": "B12"
+    },
+    {
+      "terr-ase-linker": "ab20",
+      "ase": "B20",
+      "territory": "B21"
+    },
+    {
+      "terr-ase-linker": "ab210",
+      "ase": "B210",
+      "territory": "B211"
+    },
+    {
+      "terr-ase-linker": "ab210",
+      "ase": "B210",
+      "territory": "B212"
+    },
+    {
+      "terr-ase-linker": "ab210",
+      "ase": "B210",
+      "territory": "B213"
+    },
+    {
+      "terr-ase-linker": "ab20",
+      "ase": "B20",
+      "territory": "B22"
+    },
+    {
+      "terr-ase-linker": "ab220",
+      "ase": "B220",
+      "territory": "B221"
+    },
+    {
+      "terr-ase-linker": "ab220",
+      "ase": "B220",
+      "territory": "B222"
+    },
+    {
+      "terr-ase-linker": "ab220",
+      "ase": "B220",
+      "territory": "B223"
+    },
+    {
+      "terr-ase-linker": "ab230",
+      "ase": "B230",
+      "territory": "B231"
+    },
+    {
+      "terr-ase-linker": "ab230",
+      "ase": "B230",
+      "territory": "B232"
+    },
+    {
+      "terr-ase-linker": "ab240",
+      "ase": "B240",
+      "territory": "B241"
+    },
+    {
+      "terr-ase-linker": "ab240",
+      "ase": "B240",
+      "territory": "B242"
+    },
+    {
+      "terr-ase-linker": "ab240",
+      "ase": "B240",
+      "territory": "B243"
+    },
+    {
+      "terr-ase-linker": "ab250",
+      "ase": "B250",
+      "territory": "B251"
+    },
+    {
+      "terr-ase-linker": "ab250",
+      "ase": "B250",
+      "territory": "B252"
+    },
+    {
+      "terr-ase-linker": "ab250",
+      "ase": "B250",
+      "territory": "B253"
+    },
+    {
+      "terr-ase-linker": "ab260",
+      "ase": "B260",
+      "territory": "B261"
+    },
+    {
+      "terr-ase-linker": "ab260",
+      "ase": "B260",
+      "territory": "B262"
+    },
+    {
+      "terr-ase-linker": "ab260",
+      "ase": "B260",
+      "territory": "B263"
+    },
+    {
+      "terr-ase-linker": "ab30",
+      "ase": "B30",
+      "territory": "B31"
+    },
+    {
+      "terr-ase-linker": "ab40",
+      "ase": "B40",
+      "territory": "B41"
+    },
+    {
+      "terr-ase-linker": "ab410",
+      "ase": "B410",
+      "territory": "B411"
+    },
+    {
+      "terr-ase-linker": "ab410",
+      "ase": "B410",
+      "territory": "B412"
+    },
+    {
+      "terr-ase-linker": "ab410",
+      "ase": "B410",
+      "territory": "B413"
+    },
+    {
+      "terr-ase-linker": "ab410",
+      "ase": "B410",
+      "territory": "B414"
+    },
+    {
+      "terr-ase-linker": "ab40",
+      "ase": "B40",
+      "territory": "B42"
+    },
+    {
+      "terr-ase-linker": "ab420",
+      "ase": "B420",
+      "territory": "B421"
+    },
+    {
+      "terr-ase-linker": "ab420",
+      "ase": "B420",
+      "territory": "B422"
+    },
+    {
+      "terr-ase-linker": "ab420",
+      "ase": "B420",
+      "territory": "B423"
+    },
+    {
+      "terr-ase-linker": "ab430",
+      "ase": "B430",
+      "territory": "B431"
+    },
+    {
+      "terr-ase-linker": "ab430",
+      "ase": "B430",
+      "territory": "B432"
+    },
+    {
+      "terr-ase-linker": "ab430",
+      "ase": "B430",
+      "territory": "B433"
+    },
+    {
+      "terr-ase-linker": "ab440",
+      "ase": "B440",
+      "territory": "B441"
+    },
+    {
+      "terr-ase-linker": "ab440",
+      "ase": "B440",
+      "territory": "B442"
+    },
+    {
+      "terr-ase-linker": "ab450",
+      "ase": "B450",
+      "territory": "B451"
+    },
+    {
+      "terr-ase-linker": "ab450",
+      "ase": "B450",
+      "territory": "B452"
+    },
+    {
+      "terr-ase-linker": "ab450",
+      "ase": "B450",
+      "territory": "B453"
+    },
+    {
+      "terr-ase-linker": "ab460",
+      "ase": "B460",
+      "territory": "B461"
+    },
+    {
+      "terr-ase-linker": "ab460",
+      "ase": "B460",
+      "territory": "B462"
+    },
+    {
+      "terr-ase-linker": "ab470",
+      "ase": "B470",
+      "territory": "B471"
+    },
+    {
+      "terr-ase-linker": "ab470",
+      "ase": "B470",
+      "territory": "B472"
+    },
+    {
+      "terr-ase-linker": "ab470",
+      "ase": "B470",
+      "territory": "B473"
+    },
+    {
+      "terr-ase-linker": "ab50",
+      "ase": "B50",
+      "territory": "B51"
+    },
+    {
+      "terr-ase-linker": "ab510",
+      "ase": "B510",
+      "territory": "B511"
+    },
+    {
+      "terr-ase-linker": "ab510",
+      "ase": "B510",
+      "territory": "B512"
+    },
+    {
+      "terr-ase-linker": "ab520",
+      "ase": "B520",
+      "territory": "B521"
+    },
+    {
+      "terr-ase-linker": "ab520",
+      "ase": "B520",
+      "territory": "B522"
+    },
+    {
+      "terr-ase-linker": "ab530",
+      "ase": "B530",
+      "territory": "B531"
+    },
+    {
+      "terr-ase-linker": "ab530",
+      "ase": "B530",
+      "territory": "B532"
+    },
+    {
+      "terr-ase-linker": "ab540",
+      "ase": "B540",
+      "territory": "B541"
+    },
+    {
+      "terr-ase-linker": "ab540",
+      "ase": "B540",
+      "territory": "B542"
+    },
+    {
+      "terr-ase-linker": "ab550",
+      "ase": "B550",
+      "territory": "B551"
+    },
+    {
+      "terr-ase-linker": "ab550",
+      "ase": "B550",
+      "territory": "B552"
+    },
+    {
+      "terr-ase-linker": "ab560",
+      "ase": "B560",
+      "territory": "B561"
+    },
+    {
+      "terr-ase-linker": "ab560",
+      "ase": "B560",
+      "territory": "B562"
+    },
+    {
+      "terr-ase-linker": "ab570",
+      "ase": "B570",
+      "territory": "B571"
+    },
+    {
+      "terr-ase-linker": "ab580",
+      "ase": "B580",
+      "territory": "B581"
+    },
+    {
+      "terr-ase-linker": "ab580",
+      "ase": "B580",
+      "territory": "B582"
+    },
+    {
+      "terr-ase-linker": "ab60",
+      "ase": "B60",
+      "territory": "B61"
+    },
+    {
+      "terr-ase-linker": "ab610",
+      "ase": "B610",
+      "territory": "B611"
+    },
+    {
+      "terr-ase-linker": "ab610",
+      "ase": "B610",
+      "territory": "B612"
+    },
+    {
+      "terr-ase-linker": "ab60",
+      "ase": "B60",
+      "territory": "B62"
+    },
+    {
+      "terr-ase-linker": "ab620",
+      "ase": "B620",
+      "territory": "B621"
+    },
+    {
+      "terr-ase-linker": "ab630",
+      "ase": "B630",
+      "territory": "B631"
+    },
+    {
+      "terr-ase-linker": "ab630",
+      "ase": "B630",
+      "territory": "B632"
+    },
+    {
+      "terr-ase-linker": "ab640",
+      "ase": "B640",
+      "territory": "B641"
+    },
+    {
+      "terr-ase-linker": "ab640",
+      "ase": "B640",
+      "territory": "B642"
+    },
+    {
+      "terr-ase-linker": "ab650",
+      "ase": "B650",
+      "territory": "B651"
+    },
+    {
+      "terr-ase-linker": "ab650",
+      "ase": "B650",
+      "territory": "B652"
+    },
+    {
+      "terr-ase-linker": "ab660",
+      "ase": "B660",
+      "territory": "B661"
+    },
+    {
+      "terr-ase-linker": "ab660",
+      "ase": "B660",
+      "territory": "B662"
+    },
+    {
+      "terr-ase-linker": "ab670",
+      "ase": "B670",
+      "territory": "B671"
+    },
+    {
+      "terr-ase-linker": "ab670",
+      "ase": "B670",
+      "territory": "B672"
+    },
+    {
+      "terr-ase-linker": "ab680",
+      "ase": "B680",
+      "territory": "B681"
+    },
+    {
+      "terr-ase-linker": "ab70",
+      "ase": "B70",
+      "territory": "B71"
+    },
+    {
+      "terr-ase-linker": "ab710",
+      "ase": "B710",
+      "territory": "B711"
+    },
+    {
+      "terr-ase-linker": "ab720",
+      "ase": "B720",
+      "territory": "B721"
+    },
+    {
+      "terr-ase-linker": "ab720",
+      "ase": "B720",
+      "territory": "B722"
+    },
+    {
+      "terr-ase-linker": "ab730",
+      "ase": "B730",
+      "territory": "B731"
+    },
+    {
+      "terr-ase-linker": "ab730",
+      "ase": "B730",
+      "territory": "B732"
+    },
+    {
+      "terr-ase-linker": "ab740",
+      "ase": "B740",
+      "territory": "B741"
+    },
+    {
+      "terr-ase-linker": "ab740",
+      "ase": "B740",
+      "territory": "B742"
+    },
+    {
+      "terr-ase-linker": "ab750",
+      "ase": "B750",
+      "territory": "B751"
+    },
+    {
+      "terr-ase-linker": "ab750",
+      "ase": "B750",
+      "territory": "B752"
+    },
+    {
+      "terr-ase-linker": "ab800",
+      "ase": "B800",
+      "territory": "B801"
+    },
+    {
+      "terr-ase-linker": "ab800",
+      "ase": "B800",
+      "territory": "B802"
+    },
+    {
+      "terr-ase-linker": "ab800",
+      "ase": "B800",
+      "territory": "B803"
+    },
+    {
+      "terr-ase-linker": "ab80",
+      "ase": "B80",
+      "territory": "B81"
+    },
+    {
+      "terr-ase-linker": "ab810",
+      "ase": "B810",
+      "territory": "B811"
+    },
+    {
+      "terr-ase-linker": "ab810",
+      "ase": "B810",
+      "territory": "B812"
+    },
+    {
+      "terr-ase-linker": "ab810",
+      "ase": "B810",
+      "territory": "B813"
+    },
+    {
+      "terr-ase-linker": "ab80",
+      "ase": "B80",
+      "territory": "B82"
+    },
+    {
+      "terr-ase-linker": "ab820",
+      "ase": "B820",
+      "territory": "B821"
+    },
+    {
+      "terr-ase-linker": "ab820",
+      "ase": "B820",
+      "territory": "B822"
+    },
+    {
+      "terr-ase-linker": "ab830",
+      "ase": "B830",
+      "territory": "B831"
+    },
+    {
+      "terr-ase-linker": "ab830",
+      "ase": "B830",
+      "territory": "B832"
+    },
+    {
+      "terr-ase-linker": "ab830",
+      "ase": "B830",
+      "territory": "B833"
+    },
+    {
+      "terr-ase-linker": "ab840",
+      "ase": "B840",
+      "territory": "B841"
+    },
+    {
+      "terr-ase-linker": "ab840",
+      "ase": "B840",
+      "territory": "B842"
+    },
+    {
+      "terr-ase-linker": "ab840",
+      "ase": "B840",
+      "territory": "B843"
+    },
+    {
+      "terr-ase-linker": "ab850",
+      "ase": "B850",
+      "territory": "B851"
+    },
+    {
+      "terr-ase-linker": "ab850",
+      "ase": "B850",
+      "territory": "B852"
+    },
+    {
+      "terr-ase-linker": "ab850",
+      "ase": "B850",
+      "territory": "B853"
+    },
+    {
+      "terr-ase-linker": "ab90",
+      "ase": "B90",
+      "territory": "B91"
+    },
+    {
+      "terr-ase-linker": "ab90",
+      "ase": "B90",
+      "territory": "B92"
+    },
+    {
+      "terr-ase-linker": "ac10",
+      "ase": "C10",
+      "territory": "C11"
+    },
+    {
+      "terr-ase-linker": "ac10",
+      "ase": "C10",
+      "territory": "C12"
+    },
+    {
+      "terr-ase-linker": "ac20",
+      "ase": "C20",
+      "territory": "C21"
+    },
+    {
+      "terr-ase-linker": "ac210",
+      "ase": "C210",
+      "territory": "C211"
+    },
+    {
+      "terr-ase-linker": "ac20",
+      "ase": "C20",
+      "territory": "C22"
+    },
+    {
+      "terr-ase-linker": "ac220",
+      "ase": "C220",
+      "territory": "C221"
+    },
+    {
+      "terr-ase-linker": "ac220",
+      "ase": "C220",
+      "territory": "C222"
+    },
+    {
+      "terr-ase-linker": "ac230",
+      "ase": "C230",
+      "territory": "C231"
+    },
+    {
+      "terr-ase-linker": "ac240",
+      "ase": "C240",
+      "territory": "C241"
+    },
+    {
+      "terr-ase-linker": "ac240",
+      "ase": "C240",
+      "territory": "C242"
+    },
+    {
+      "terr-ase-linker": "ac250",
+      "ase": "C250",
+      "territory": "C251"
+    },
+    {
+      "terr-ase-linker": "ac250",
+      "ase": "C250",
+      "territory": "C252"
+    },
+    {
+      "terr-ase-linker": "ac260",
+      "ase": "C260",
+      "territory": "C261"
+    },
+    {
+      "terr-ase-linker": "ac260",
+      "ase": "C260",
+      "territory": "C262"
+    },
+    {
+      "terr-ase-linker": "ac270",
+      "ase": "C270",
+      "territory": "C271"
+    },
+    {
+      "terr-ase-linker": "ac270",
+      "ase": "C270",
+      "territory": "C272"
+    },
+    {
+      "terr-ase-linker": "ac280",
+      "ase": "C280",
+      "territory": "C281"
+    },
+    {
+      "terr-ase-linker": "ac280",
+      "ase": "C280",
+      "territory": "C282"
+    },
+    {
+      "terr-ase-linker": "ac290",
+      "ase": "C290",
+      "territory": "C291"
+    },
+    {
+      "terr-ase-linker": "ac30",
+      "ase": "C30",
+      "territory": "C31"
+    },
+    {
+      "terr-ase-linker": "ac310",
+      "ase": "C310",
+      "territory": "C311"
+    },
+    {
+      "terr-ase-linker": "ac30",
+      "ase": "C30",
+      "territory": "C32"
+    },
+    {
+      "terr-ase-linker": "ac320",
+      "ase": "C320",
+      "territory": "C321"
+    },
+    {
+      "terr-ase-linker": "ac320",
+      "ase": "C320",
+      "territory": "C322"
+    },
+    {
+      "terr-ase-linker": "ac330",
+      "ase": "C330",
+      "territory": "C331"
+    },
+    {
+      "terr-ase-linker": "ac330",
+      "ase": "C330",
+      "territory": "C332"
+    },
+    {
+      "terr-ase-linker": "ac340",
+      "ase": "C340",
+      "territory": "C341"
+    },
+    {
+      "terr-ase-linker": "ac340",
+      "ase": "C340",
+      "territory": "C342"
+    },
+    {
+      "terr-ase-linker": "ac350",
+      "ase": "C350",
+      "territory": "C351"
+    },
+    {
+      "terr-ase-linker": "ac360",
+      "ase": "C360",
+      "territory": "C361"
+    },
+    {
+      "terr-ase-linker": "ac370",
+      "ase": "C370",
+      "territory": "C371"
+    },
+    {
+      "terr-ase-linker": "ac370",
+      "ase": "C370",
+      "territory": "C372"
+    },
+    {
+      "terr-ase-linker": "ac380",
+      "ase": "C380",
+      "territory": "C381"
+    },
+    {
+      "terr-ase-linker": "ac380",
+      "ase": "C380",
+      "territory": "C382"
+    },
+    {
+      "terr-ase-linker": "ac390",
+      "ase": "C390",
+      "territory": "C391"
+    },
+    {
+      "terr-ase-linker": "ac390",
+      "ase": "C390",
+      "territory": "C392"
+    },
+    {
+      "terr-ase-linker": "ac40",
+      "ase": "C40",
+      "territory": "C41"
+    },
+    {
+      "terr-ase-linker": "ac410",
+      "ase": "C410",
+      "territory": "C411"
+    },
+    {
+      "terr-ase-linker": "ac410",
+      "ase": "C410",
+      "territory": "C412"
+    },
+    {
+      "terr-ase-linker": "ac420",
+      "ase": "C420",
+      "territory": "C421"
+    },
+    {
+      "terr-ase-linker": "ac420",
+      "ase": "C420",
+      "territory": "C422"
+    },
+    {
+      "terr-ase-linker": "ac430",
+      "ase": "C430",
+      "territory": "C431"
+    },
+    {
+      "terr-ase-linker": "ac440",
+      "ase": "C440",
+      "territory": "C441"
+    },
+    {
+      "terr-ase-linker": "ac440",
+      "ase": "C440",
+      "territory": "C442"
+    },
+    {
+      "terr-ase-linker": "ac450",
+      "ase": "C450",
+      "territory": "C451"
+    },
+    {
+      "terr-ase-linker": "ac460",
+      "ase": "C460",
+      "territory": "C461"
+    },
+    {
+      "terr-ase-linker": "ac460",
+      "ase": "C460",
+      "territory": "C462"
+    },
+    {
+      "terr-ase-linker": "ac470",
+      "ase": "C470",
+      "territory": "C471"
+    },
+    {
+      "terr-ase-linker": "ac470",
+      "ase": "C470",
+      "territory": "C472"
+    },
+    {
+      "terr-ase-linker": "ac480",
+      "ase": "C480",
+      "territory": "C481"
+    },
+    {
+      "terr-ase-linker": "ac480",
+      "ase": "C480",
+      "territory": "C482"
+    },
+    {
+      "terr-ase-linker": "ac490",
+      "ase": "C490",
+      "territory": "C491"
+    },
+    {
+      "terr-ase-linker": "ac500",
+      "ase": "C500",
+      "territory": "C501"
+    },
+    {
+      "terr-ase-linker": "ac500",
+      "ase": "C500",
+      "territory": "C502"
+    },
+    {
+      "terr-ase-linker": "ac50",
+      "ase": "C50",
+      "territory": "C51"
+    },
+    {
+      "terr-ase-linker": "ac510",
+      "ase": "C510",
+      "territory": "C511"
+    },
+    {
+      "terr-ase-linker": "ac510",
+      "ase": "C510",
+      "territory": "C512"
+    },
+    {
+      "terr-ase-linker": "ac50",
+      "ase": "C50",
+      "territory": "C52"
+    },
+    {
+      "terr-ase-linker": "ac520",
+      "ase": "C520",
+      "territory": "C521"
+    },
+    {
+      "terr-ase-linker": "ac520",
+      "ase": "C520",
+      "territory": "C522"
+    },
+    {
+      "terr-ase-linker": "ac520",
+      "ase": "C520",
+      "territory": "C523"
+    },
+    {
+      "terr-ase-linker": "ac530",
+      "ase": "C530",
+      "territory": "C531"
+    },
+    {
+      "terr-ase-linker": "ac530",
+      "ase": "C530",
+      "territory": "C532"
+    },
+    {
+      "terr-ase-linker": "ac530",
+      "ase": "C530",
+      "territory": "C533"
+    },
+    {
+      "terr-ase-linker": "ac540",
+      "ase": "C540",
+      "territory": "C541"
+    },
+    {
+      "terr-ase-linker": "ac540",
+      "ase": "C540",
+      "territory": "C542"
+    },
+    {
+      "terr-ase-linker": "ac550",
+      "ase": "C550",
+      "territory": "C551"
+    },
+    {
+      "terr-ase-linker": "ac550",
+      "ase": "C550",
+      "territory": "C552"
+    },
+    {
+      "terr-ase-linker": "ac560",
+      "ase": "C560",
+      "territory": "C561"
+    },
+    {
+      "terr-ase-linker": "ac560",
+      "ase": "C560",
+      "territory": "C562"
+    },
+    {
+      "terr-ase-linker": "ac570",
+      "ase": "C570",
+      "territory": "C571"
+    },
+    {
+      "terr-ase-linker": "ac570",
+      "ase": "C570",
+      "territory": "C572"
+    },
+    {
+      "terr-ase-linker": "ac580",
+      "ase": "C580",
+      "territory": "C581"
+    },
+    {
+      "terr-ase-linker": "ac580",
+      "ase": "C580",
+      "territory": "C582"
+    },
+    {
+      "terr-ase-linker": "ac600",
+      "ase": "C600",
+      "territory": "C601"
+    },
+    {
+      "terr-ase-linker": "ac600",
+      "ase": "C600",
+      "territory": "C602"
+    },
+    {
+      "terr-ase-linker": "ac600",
+      "ase": "C600",
+      "territory": "C603"
+    },
+    {
+      "terr-ase-linker": "ac60",
+      "ase": "C60",
+      "territory": "C61"
+    },
+    {
+      "terr-ase-linker": "ac610",
+      "ase": "C610",
+      "territory": "C611"
+    },
+    {
+      "terr-ase-linker": "ac610",
+      "ase": "C610",
+      "territory": "C612"
+    },
+    {
+      "terr-ase-linker": "ac60",
+      "ase": "C60",
+      "territory": "C62"
+    },
+    {
+      "terr-ase-linker": "ac620",
+      "ase": "C620",
+      "territory": "C621"
+    },
+    {
+      "terr-ase-linker": "ac620",
+      "ase": "C620",
+      "territory": "C622"
+    },
+    {
+      "terr-ase-linker": "ac630",
+      "ase": "C630",
+      "territory": "C631"
+    },
+    {
+      "terr-ase-linker": "ac630",
+      "ase": "C630",
+      "territory": "C632"
+    },
+    {
+      "terr-ase-linker": "ac630",
+      "ase": "C630",
+      "territory": "C633"
+    },
+    {
+      "terr-ase-linker": "ac640",
+      "ase": "C640",
+      "territory": "C641"
+    },
+    {
+      "terr-ase-linker": "ac640",
+      "ase": "C640",
+      "territory": "C642"
+    },
+    {
+      "terr-ase-linker": "ac640",
+      "ase": "C640",
+      "territory": "C643"
+    },
+    {
+      "terr-ase-linker": "ac650",
+      "ase": "C650",
+      "territory": "C651"
+    },
+    {
+      "terr-ase-linker": "ac650",
+      "ase": "C650",
+      "territory": "C652"
+    },
+    {
+      "terr-ase-linker": "ac650",
+      "ase": "C650",
+      "territory": "C653"
+    },
+    {
+      "terr-ase-linker": "ac660",
+      "ase": "C660",
+      "territory": "C661"
+    },
+    {
+      "terr-ase-linker": "ac660",
+      "ase": "C660",
+      "territory": "C662"
+    },
+    {
+      "terr-ase-linker": "ac660",
+      "ase": "C660",
+      "territory": "C663"
+    },
+    {
+      "terr-ase-linker": "ac670",
+      "ase": "C670",
+      "territory": "C671"
+    },
+    {
+      "terr-ase-linker": "ac670",
+      "ase": "C670",
+      "territory": "C672"
+    },
+    {
+      "terr-ase-linker": "ac680",
+      "ase": "C680",
+      "territory": "C681"
+    },
+    {
+      "terr-ase-linker": "ac680",
+      "ase": "C680",
+      "territory": "C682"
+    },
+    {
+      "terr-ase-linker": "ac70",
+      "ase": "C70",
+      "territory": "C71"
+    },
+    {
+      "terr-ase-linker": "ac70",
+      "ase": "C70",
+      "territory": "C72"
+    },
+    {
+      "terr-ase-linker": "ac80",
+      "ase": "C80",
+      "territory": "C81"
+    },
+    {
+      "terr-ase-linker": "ac810",
+      "ase": "C810",
+      "territory": "C811"
+    },
+    {
+      "terr-ase-linker": "ac810",
+      "ase": "C810",
+      "territory": "C812"
+    },
+    {
+      "terr-ase-linker": "ac80",
+      "ase": "C80",
+      "territory": "C82"
+    },
+    {
+      "terr-ase-linker": "ac820",
+      "ase": "C820",
+      "territory": "C821"
+    },
+    {
+      "terr-ase-linker": "ac820",
+      "ase": "C820",
+      "territory": "C822"
+    },
+    {
+      "terr-ase-linker": "ac830",
+      "ase": "C830",
+      "territory": "C831"
+    },
+    {
+      "terr-ase-linker": "ac830",
+      "ase": "C830",
+      "territory": "C832"
+    },
+    {
+      "terr-ase-linker": "ac830",
+      "ase": "C830",
+      "territory": "C833"
+    },
+    {
+      "terr-ase-linker": "ac840",
+      "ase": "C840",
+      "territory": "C841"
+    },
+    {
+      "terr-ase-linker": "ac840",
+      "ase": "C840",
+      "territory": "C842"
+    },
+    {
+      "terr-ase-linker": "ac850",
+      "ase": "C850",
+      "territory": "C851"
+    },
+    {
+      "terr-ase-linker": "ac850",
+      "ase": "C850",
+      "territory": "C852"
+    },
+    {
+      "terr-ase-linker": "ac860",
+      "ase": "C860",
+      "territory": "C861"
+    },
+    {
+      "terr-ase-linker": "ac860",
+      "ase": "C860",
+      "territory": "C862"
+    },
+    {
+      "terr-ase-linker": "ac860",
+      "ase": "C860",
+      "territory": "C863"
+    },
+    {
+      "terr-ase-linker": "ac870",
+      "ase": "C870",
+      "territory": "C871"
+    },
+    {
+      "terr-ase-linker": "ac870",
+      "ase": "C870",
+      "territory": "C872"
+    },
+    {
+      "terr-ase-linker": "ac880",
+      "ase": "C880",
+      "territory": "C881"
+    },
+    {
+      "terr-ase-linker": "ac880",
+      "ase": "C880",
+      "territory": "C882"
+    },
+    {
+      "terr-ase-linker": "ac880",
+      "ase": "C880",
+      "territory": "C883"
+    },
+    {
+      "terr-ase-linker": "ac910",
+      "ase": "C910",
+      "territory": "C911"
+    },
+    {
+      "terr-ase-linker": "ac920",
+      "ase": "C920",
+      "territory": "C921"
+    },
+    {
+      "terr-ase-linker": "ac920",
+      "ase": "C920",
+      "territory": "C922"
+    },
+    {
+      "terr-ase-linker": "ac930",
+      "ase": "C930",
+      "territory": "C931"
+    },
+    {
+      "terr-ase-linker": "ac930",
+      "ase": "C930",
+      "territory": "C932"
+    },
+    {
+      "terr-ase-linker": "ac940",
+      "ase": "C940",
+      "territory": "C941"
+    },
+    {
+      "terr-ase-linker": "ac940",
+      "ase": "C940",
+      "territory": "C942"
+    },
+    {
+      "terr-ase-linker": "ac950",
+      "ase": "C950",
+      "territory": "C951"
+    },
+    {
+      "terr-ase-linker": "ac950",
+      "ase": "C950",
+      "territory": "C952"
+    },
+    {
+      "terr-ase-linker": "ac960",
+      "ase": "C960",
+      "territory": "C961"
+    },
+    {
+      "terr-ase-linker": "ac960",
+      "ase": "C960",
+      "territory": "C962"
+    },
+    {
+      "terr-ase-linker": "ac970",
+      "ase": "C970",
+      "territory": "C971"
+    },
+    {
+      "terr-ase-linker": "ac970",
+      "ase": "C970",
+      "territory": "C972"
+    },
+    {
+      "terr-ase-linker": "ac980",
+      "ase": "C980",
+      "territory": "C981"
+    },
+    {
+      "terr-ase-linker": "ac980",
+      "ase": "C980",
+      "territory": "C982"
+    },
+    {
+      "terr-ase-linker": "ad10",
+      "ase": "D10",
+      "territory": "D11"
+    },
+    {
+      "terr-ase-linker": "ad200",
+      "ase": "D200",
+      "territory": "D201"
+    },
+    {
+      "terr-ase-linker": "ad200",
+      "ase": "D200",
+      "territory": "D202"
+    },
+    {
+      "terr-ase-linker": "ad20",
+      "ase": "D20",
+      "territory": "D21"
+    },
+    {
+      "terr-ase-linker": "ad210",
+      "ase": "D210",
+      "territory": "D211"
+    },
+    {
+      "terr-ase-linker": "ad210",
+      "ase": "D210",
+      "territory": "D212"
+    },
+    {
+      "terr-ase-linker": "ad20",
+      "ase": "D20",
+      "territory": "D22"
+    },
+    {
+      "terr-ase-linker": "ad220",
+      "ase": "D220",
+      "territory": "D221"
+    },
+    {
+      "terr-ase-linker": "ad220",
+      "ase": "D220",
+      "territory": "D222"
+    },
+    {
+      "terr-ase-linker": "ad230",
+      "ase": "D230",
+      "territory": "D231"
+    },
+    {
+      "terr-ase-linker": "ad240",
+      "ase": "D240",
+      "territory": "D241"
+    },
+    {
+      "terr-ase-linker": "ad250",
+      "ase": "D250",
+      "territory": "D251"
+    },
+    {
+      "terr-ase-linker": "ad250",
+      "ase": "D250",
+      "territory": "D252"
+    },
+    {
+      "terr-ase-linker": "ad260",
+      "ase": "D260",
+      "territory": "D261"
+    },
+    {
+      "terr-ase-linker": "ad270",
+      "ase": "D270",
+      "territory": "D271"
+    },
+    {
+      "terr-ase-linker": "ad270",
+      "ase": "D270",
+      "territory": "D272"
+    },
+    {
+      "terr-ase-linker": "ad280",
+      "ase": "D280",
+      "territory": "D281"
+    },
+    {
+      "terr-ase-linker": "ad30",
+      "ase": "D30",
+      "territory": "D31"
+    },
+    {
+      "terr-ase-linker": "ad310",
+      "ase": "D310",
+      "territory": "D311"
+    },
+    {
+      "terr-ase-linker": "ad310",
+      "ase": "D310",
+      "territory": "D312"
+    },
+    {
+      "terr-ase-linker": "ad30",
+      "ase": "D30",
+      "territory": "D32"
+    },
+    {
+      "terr-ase-linker": "ad320",
+      "ase": "D320",
+      "territory": "D321"
+    },
+    {
+      "terr-ase-linker": "ad320",
+      "ase": "D320",
+      "territory": "D322"
+    },
+    {
+      "terr-ase-linker": "ad330",
+      "ase": "D330",
+      "territory": "D331"
+    },
+    {
+      "terr-ase-linker": "ad340",
+      "ase": "D340",
+      "territory": "D341"
+    },
+    {
+      "terr-ase-linker": "ad340",
+      "ase": "D340",
+      "territory": "D342"
+    },
+    {
+      "terr-ase-linker": "ad350",
+      "ase": "D350",
+      "territory": "D351"
+    },
+    {
+      "terr-ase-linker": "ad350",
+      "ase": "D350",
+      "territory": "D352"
+    },
+    {
+      "terr-ase-linker": "ad360",
+      "ase": "D360",
+      "territory": "D361"
+    },
+    {
+      "terr-ase-linker": "ad370",
+      "ase": "D370",
+      "territory": "D371"
+    },
+    {
+      "terr-ase-linker": "ad370",
+      "ase": "D370",
+      "territory": "D372"
+    },
+    {
+      "terr-ase-linker": "ad380",
+      "ase": "D380",
+      "territory": "D381"
+    },
+    {
+      "terr-ase-linker": "ad380",
+      "ase": "D380",
+      "territory": "D382"
+    },
+    {
+      "terr-ase-linker": "ad390",
+      "ase": "D390",
+      "territory": "D391"
+    },
+    {
+      "terr-ase-linker": "ad390",
+      "ase": "D390",
+      "territory": "D392"
+    },
+    {
+      "terr-ase-linker": "ad40",
+      "ase": "D40",
+      "territory": "D41"
+    },
+    {
+      "terr-ase-linker": "ad410",
+      "ase": "D410",
+      "territory": "D411"
+    },
+    {
+      "terr-ase-linker": "ad40",
+      "ase": "D40",
+      "territory": "D42"
+    },
+    {
+      "terr-ase-linker": "ad420",
+      "ase": "D420",
+      "territory": "D421"
+    },
+    {
+      "terr-ase-linker": "ad420",
+      "ase": "D420",
+      "territory": "D422"
+    },
+    {
+      "terr-ase-linker": "ad430",
+      "ase": "D430",
+      "territory": "D431"
+    },
+    {
+      "terr-ase-linker": "ad430",
+      "ase": "D430",
+      "territory": "D432"
+    },
+    {
+      "terr-ase-linker": "ad440",
+      "ase": "D440",
+      "territory": "D441"
+    },
+    {
+      "terr-ase-linker": "ad440",
+      "ase": "D440",
+      "territory": "D442"
+    },
+    {
+      "terr-ase-linker": "ad450",
+      "ase": "D450",
+      "territory": "D451"
+    },
+    {
+      "terr-ase-linker": "ad450",
+      "ase": "D450",
+      "territory": "D452"
+    },
+    {
+      "terr-ase-linker": "ad460",
+      "ase": "D460",
+      "territory": "D461"
+    },
+    {
+      "terr-ase-linker": "ad500",
+      "ase": "D500",
+      "territory": "D501"
+    },
+    {
+      "terr-ase-linker": "ad500",
+      "ase": "D500",
+      "territory": "D502"
+    },
+    {
+      "terr-ase-linker": "ad50",
+      "ase": "D50",
+      "territory": "D51"
+    },
+    {
+      "terr-ase-linker": "ad510",
+      "ase": "D510",
+      "territory": "D511"
+    },
+    {
+      "terr-ase-linker": "ad510",
+      "ase": "D510",
+      "territory": "D512"
+    },
+    {
+      "terr-ase-linker": "ad50",
+      "ase": "D50",
+      "territory": "D52"
+    },
+    {
+      "terr-ase-linker": "ad520",
+      "ase": "D520",
+      "territory": "D521"
+    },
+    {
+      "terr-ase-linker": "ad520",
+      "ase": "D520",
+      "territory": "D522"
+    },
+    {
+      "terr-ase-linker": "ad530",
+      "ase": "D530",
+      "territory": "D531"
+    },
+    {
+      "terr-ase-linker": "ad530",
+      "ase": "D530",
+      "territory": "D532"
+    },
+    {
+      "terr-ase-linker": "ad540",
+      "ase": "D540",
+      "territory": "D541"
+    },
+    {
+      "terr-ase-linker": "ad540",
+      "ase": "D540",
+      "territory": "D542"
+    },
+    {
+      "terr-ase-linker": "ad550",
+      "ase": "D550",
+      "territory": "D551"
+    },
+    {
+      "terr-ase-linker": "ad550",
+      "ase": "D550",
+      "territory": "D552"
+    },
+    {
+      "terr-ase-linker": "ad600",
+      "ase": "D600",
+      "territory": "D601"
+    },
+    {
+      "terr-ase-linker": "ad600",
+      "ase": "D600",
+      "territory": "D602"
+    },
+    {
+      "terr-ase-linker": "ad600",
+      "ase": "D600",
+      "territory": "D603"
+    },
+    {
+      "terr-ase-linker": "ad60",
+      "ase": "D60",
+      "territory": "D61"
+    },
+    {
+      "terr-ase-linker": "ad610",
+      "ase": "D610",
+      "territory": "D611"
+    },
+    {
+      "terr-ase-linker": "ad610",
+      "ase": "D610",
+      "territory": "D612"
+    },
+    {
+      "terr-ase-linker": "ad610",
+      "ase": "D610",
+      "territory": "D613"
+    },
+    {
+      "terr-ase-linker": "ad60",
+      "ase": "D60",
+      "territory": "D62"
+    },
+    {
+      "terr-ase-linker": "ad620",
+      "ase": "D620",
+      "territory": "D621"
+    },
+    {
+      "terr-ase-linker": "ad620",
+      "ase": "D620",
+      "territory": "D622"
+    },
+    {
+      "terr-ase-linker": "ad620",
+      "ase": "D620",
+      "territory": "D623"
+    },
+    {
+      "terr-ase-linker": "ad630",
+      "ase": "D630",
+      "territory": "D631"
+    },
+    {
+      "terr-ase-linker": "ad630",
+      "ase": "D630",
+      "territory": "D632"
+    },
+    {
+      "terr-ase-linker": "ad630",
+      "ase": "D630",
+      "territory": "D633"
+    },
+    {
+      "terr-ase-linker": "ad640",
+      "ase": "D640",
+      "territory": "D641"
+    },
+    {
+      "terr-ase-linker": "ad640",
+      "ase": "D640",
+      "territory": "D642"
+    },
+    {
+      "terr-ase-linker": "ad640",
+      "ase": "D640",
+      "territory": "D643"
+    },
+    {
+      "terr-ase-linker": "ad650",
+      "ase": "D650",
+      "territory": "D651"
+    },
+    {
+      "terr-ase-linker": "ad650",
+      "ase": "D650",
+      "territory": "D652"
+    },
+    {
+      "terr-ase-linker": "ad650",
+      "ase": "D650",
+      "territory": "D653"
+    },
+    {
+      "terr-ase-linker": "ad660",
+      "ase": "D660",
+      "territory": "D661"
+    },
+    {
+      "terr-ase-linker": "ad660",
+      "ase": "D660",
+      "territory": "D662"
+    },
+    {
+      "terr-ase-linker": "ad660",
+      "ase": "D660",
+      "territory": "D663"
+    },
+    {
+      "terr-ase-linker": "ad700",
+      "ase": "D700",
+      "territory": "D701"
+    },
+    {
+      "terr-ase-linker": "ad700",
+      "ase": "D700",
+      "territory": "D702"
+    },
+    {
+      "terr-ase-linker": "ad70",
+      "ase": "D70",
+      "territory": "D71"
+    },
+    {
+      "terr-ase-linker": "ad710",
+      "ase": "D710",
+      "territory": "D711"
+    },
+    {
+      "terr-ase-linker": "ad710",
+      "ase": "D710",
+      "territory": "D712"
+    },
+    {
+      "terr-ase-linker": "ad70",
+      "ase": "D70",
+      "territory": "D72"
+    },
+    {
+      "terr-ase-linker": "ad720",
+      "ase": "D720",
+      "territory": "D721"
+    },
+    {
+      "terr-ase-linker": "ad720",
+      "ase": "D720",
+      "territory": "D722"
+    },
+    {
+      "terr-ase-linker": "ad730",
+      "ase": "D730",
+      "territory": "D731"
+    },
+    {
+      "terr-ase-linker": "ad730",
+      "ase": "D730",
+      "territory": "D732"
+    },
+    {
+      "terr-ase-linker": "ad740",
+      "ase": "D740",
+      "territory": "D741"
+    },
+    {
+      "terr-ase-linker": "ad740",
+      "ase": "D740",
+      "territory": "D742"
+    },
+    {
+      "terr-ase-linker": "ad750",
+      "ase": "D750",
+      "territory": "D751"
+    },
+    {
+      "terr-ase-linker": "ad750",
+      "ase": "D750",
+      "territory": "D752"
+    },
+    {
+      "terr-ase-linker": "ad750",
+      "ase": "D750",
+      "territory": "D753"
+    },
+    {
+      "terr-ase-linker": "ad800",
+      "ase": "D800",
+      "territory": "D801"
+    },
+    {
+      "terr-ase-linker": "ad800",
+      "ase": "D800",
+      "territory": "D802"
+    },
+    {
+      "terr-ase-linker": "ad800",
+      "ase": "D800",
+      "territory": "D803"
+    },
+    {
+      "terr-ase-linker": "ad80",
+      "ase": "D80",
+      "territory": "D81"
+    },
+    {
+      "terr-ase-linker": "ad810",
+      "ase": "D810",
+      "territory": "D811"
+    },
+    {
+      "terr-ase-linker": "ad810",
+      "ase": "D810",
+      "territory": "D812"
+    },
+    {
+      "terr-ase-linker": "ad810",
+      "ase": "D810",
+      "territory": "D813"
+    },
+    {
+      "terr-ase-linker": "ad820",
+      "ase": "D820",
+      "territory": "D821"
+    },
+    {
+      "terr-ase-linker": "ad820",
+      "ase": "D820",
+      "territory": "D822"
+    },
+    {
+      "terr-ase-linker": "ad820",
+      "ase": "D820",
+      "territory": "D823"
+    },
+    {
+      "terr-ase-linker": "ad830",
+      "ase": "D830",
+      "territory": "D831"
+    },
+    {
+      "terr-ase-linker": "ad830",
+      "ase": "D830",
+      "territory": "D832"
+    },
+    {
+      "terr-ase-linker": "ad840",
+      "ase": "D840",
+      "territory": "D841"
+    },
+    {
+      "terr-ase-linker": "ad840",
+      "ase": "D840",
+      "territory": "D842"
+    },
+    {
+      "terr-ase-linker": "ad850",
+      "ase": "D850",
+      "territory": "D851"
+    },
+    {
+      "terr-ase-linker": "ad850",
+      "ase": "D850",
+      "territory": "D852"
+    },
+    {
+      "terr-ase-linker": "ad850",
+      "ase": "D850",
+      "territory": "D853"
+    },
+    {
+      "terr-ase-linker": "ad900",
+      "ase": "D900",
+      "territory": "D901"
+    },
+    {
+      "terr-ase-linker": "ad900",
+      "ase": "D900",
+      "territory": "D902"
+    },
+    {
+      "terr-ase-linker": "ad900",
+      "ase": "D900",
+      "territory": "D903"
+    },
+    {
+      "terr-ase-linker": "ad900",
+      "ase": "D900",
+      "territory": "D904"
+    },
+    {
+      "terr-ase-linker": "ad910",
+      "ase": "D910",
+      "territory": "D911"
+    },
+    {
+      "terr-ase-linker": "ad910",
+      "ase": "D910",
+      "territory": "D912"
+    },
+    {
+      "terr-ase-linker": "ad910",
+      "ase": "D910",
+      "territory": "D913"
+    },
+    {
+      "terr-ase-linker": "ad920",
+      "ase": "D920",
+      "territory": "D921"
+    },
+    {
+      "terr-ase-linker": "ad920",
+      "ase": "D920",
+      "territory": "D922"
+    },
+    {
+      "terr-ase-linker": "ad920",
+      "ase": "D920",
+      "territory": "D923"
+    },
+    {
+      "terr-ase-linker": "ad930",
+      "ase": "D930",
+      "territory": "D931"
+    },
+    {
+      "terr-ase-linker": "ad930",
+      "ase": "D930",
+      "territory": "D932"
+    },
+    {
+      "terr-ase-linker": "ad930",
+      "ase": "D930",
+      "territory": "D933"
+    },
+    {
+      "terr-ase-linker": "ad940",
+      "ase": "D940",
+      "territory": "D941"
+    },
+    {
+      "terr-ase-linker": "ad940",
+      "ase": "D940",
+      "territory": "D942"
+    },
+    {
+      "terr-ase-linker": "ad940",
+      "ase": "D940",
+      "territory": "D943"
+    },
+    {
+      "terr-ase-linker": "ad950",
+      "ase": "D950",
+      "territory": "D951"
+    },
+    {
+      "terr-ase-linker": "ad950",
+      "ase": "D950",
+      "territory": "D952"
+    },
+    {
+      "terr-ase-linker": "ad950",
+      "ase": "D950",
+      "territory": "D953"
+    },
+    {
+      "terr-ase-linker": "ad950",
+      "ase": "D950",
+      "territory": "D954"
+    },
+    {
+      "terr-ase-linker": "ae10",
+      "ase": "E10",
+      "territory": "E11"
+    },
+    {
+      "terr-ase-linker": "ae10",
+      "ase": "E10",
+      "territory": "E12"
+    },
+    {
+      "terr-ase-linker": "ae20",
+      "ase": "E20",
+      "territory": "E21"
+    },
+    {
+      "terr-ase-linker": "ae210",
+      "ase": "E210",
+      "territory": "E211"
+    },
+    {
+      "terr-ase-linker": "ae210",
+      "ase": "E210",
+      "territory": "E212"
+    },
+    {
+      "terr-ase-linker": "ae210",
+      "ase": "E210",
+      "territory": "E213"
+    },
+    {
+      "terr-ase-linker": "ae220",
+      "ase": "E220",
+      "territory": "E221"
+    },
+    {
+      "terr-ase-linker": "ae220",
+      "ase": "E220",
+      "territory": "E222"
+    },
+    {
+      "terr-ase-linker": "ae220",
+      "ase": "E220",
+      "territory": "E223"
+    },
+    {
+      "terr-ase-linker": "ae230",
+      "ase": "E230",
+      "territory": "E231"
+    },
+    {
+      "terr-ase-linker": "ae230",
+      "ase": "E230",
+      "territory": "E232"
+    },
+    {
+      "terr-ase-linker": "ae230",
+      "ase": "E230",
+      "territory": "E233"
+    },
+    {
+      "terr-ase-linker": "ae240",
+      "ase": "E240",
+      "territory": "E241"
+    },
+    {
+      "terr-ase-linker": "ae240",
+      "ase": "E240",
+      "territory": "E242"
+    },
+    {
+      "terr-ase-linker": "ae250",
+      "ase": "E250",
+      "territory": "E251"
+    },
+    {
+      "terr-ase-linker": "ae250",
+      "ase": "E250",
+      "territory": "E252"
+    },
+    {
+      "terr-ase-linker": "ae260",
+      "ase": "E260",
+      "territory": "E261"
+    },
+    {
+      "terr-ase-linker": "ae260",
+      "ase": "E260",
+      "territory": "E262"
+    },
+    {
+      "terr-ase-linker": "ae260",
+      "ase": "E260",
+      "territory": "E263"
+    },
+    {
+      "terr-ase-linker": "ae30",
+      "ase": "E30",
+      "territory": "E31"
+    },
+    {
+      "terr-ase-linker": "ae30",
+      "ase": "E30",
+      "territory": "E32"
+    },
+    {
+      "terr-ase-linker": "ae40",
+      "ase": "E40",
+      "territory": "E41"
+    },
+    {
+      "terr-ase-linker": "ae50",
+      "ase": "E50",
+      "territory": "E51"
+    },
+    {
+      "terr-ase-linker": "ae50",
+      "ase": "E50",
+      "territory": "E52"
+    },
+    {
+      "terr-ase-linker": "ae60",
+      "ase": "E60",
+      "territory": "E61"
+    },
+    {
+      "terr-ase-linker": "ae60",
+      "ase": "E60",
+      "territory": "E62"
+    },
+    {
+      "terr-ase-linker": "ae70",
+      "ase": "E70",
+      "territory": "E71"
+    },
+    {
+      "terr-ase-linker": "ae70",
+      "ase": "E70",
+      "territory": "E72"
+    },
+    {
+      "terr-ase-linker": "af10",
+      "ase": "F10",
+      "territory": "F11"
+    },
+    {
+      "terr-ase-linker": "af10",
+      "ase": "F10",
+      "territory": "F12"
+    },
+    {
+      "terr-ase-linker": "af20",
+      "ase": "F20",
+      "territory": "F21"
+    },
+    {
+      "terr-ase-linker": "af210",
+      "ase": "F210",
+      "territory": "F211"
+    },
+    {
+      "terr-ase-linker": "af210",
+      "ase": "F210",
+      "territory": "F212"
+    },
+    {
+      "terr-ase-linker": "af220",
+      "ase": "F220",
+      "territory": "F221"
+    },
+    {
+      "terr-ase-linker": "af220",
+      "ase": "F220",
+      "territory": "F222"
+    },
+    {
+      "terr-ase-linker": "af230",
+      "ase": "F230",
+      "territory": "F231"
+    },
+    {
+      "terr-ase-linker": "af230",
+      "ase": "F230",
+      "territory": "F232"
+    },
+    {
+      "terr-ase-linker": "af240",
+      "ase": "F240",
+      "territory": "F241"
+    },
+    {
+      "terr-ase-linker": "af240",
+      "ase": "F240",
+      "territory": "F242"
+    },
+    {
+      "terr-ase-linker": "af250",
+      "ase": "F250",
+      "territory": "F251"
+    },
+    {
+      "terr-ase-linker": "af250",
+      "ase": "F250",
+      "territory": "F252"
+    },
+    {
+      "terr-ase-linker": "af250",
+      "ase": "F250",
+      "territory": "F253"
+    },
+    {
+      "terr-ase-linker": "af260",
+      "ase": "F260",
+      "territory": "F261"
+    },
+    {
+      "terr-ase-linker": "af260",
+      "ase": "F260",
+      "territory": "F262"
+    },
+    {
+      "terr-ase-linker": "af260",
+      "ase": "F260",
+      "territory": "F263"
+    },
+    {
+      "terr-ase-linker": "af30",
+      "ase": "F30",
+      "territory": "F31"
+    },
+    {
+      "terr-ase-linker": "af310",
+      "ase": "F310",
+      "territory": "F311"
+    },
+    {
+      "terr-ase-linker": "af310",
+      "ase": "F310",
+      "territory": "F312"
+    },
+    {
+      "terr-ase-linker": "af320",
+      "ase": "F320",
+      "territory": "F321"
+    },
+    {
+      "terr-ase-linker": "af330",
+      "ase": "F330",
+      "territory": "F331"
+    },
+    {
+      "terr-ase-linker": "af330",
+      "ase": "F330",
+      "territory": "F332"
+    },
+    {
+      "terr-ase-linker": "af340",
+      "ase": "F340",
+      "territory": "F341"
+    },
+    {
+      "terr-ase-linker": "af340",
+      "ase": "F340",
+      "territory": "F342"
+    },
+    {
+      "terr-ase-linker": "af350",
+      "ase": "F350",
+      "territory": "F351"
+    },
+    {
+      "terr-ase-linker": "af350",
+      "ase": "F350",
+      "territory": "F352"
+    },
+    {
+      "terr-ase-linker": "af360",
+      "ase": "F360",
+      "territory": "F361"
+    },
+    {
+      "terr-ase-linker": "af360",
+      "ase": "F360",
+      "territory": "F362"
+    },
+    {
+      "terr-ase-linker": "af370",
+      "ase": "F370",
+      "territory": "F371"
+    },
+    {
+      "terr-ase-linker": "af370",
+      "ase": "F370",
+      "territory": "F372"
+    },
+    {
+      "terr-ase-linker": "af40",
+      "ase": "F40",
+      "territory": "F41"
+    },
+    {
+      "terr-ase-linker": "af40",
+      "ase": "F40",
+      "territory": "F42"
+    },
+    {
+      "terr-ase-linker": "af50",
+      "ase": "F50",
+      "territory": "F51"
+    },
+    {
+      "terr-ase-linker": "af50",
+      "ase": "F50",
+      "territory": "F52"
+    },
+    {
+      "terr-ase-linker": "af60",
+      "ase": "F60",
+      "territory": "F61"
+    },
+    {
+      "terr-ase-linker": "af60",
+      "ase": "F60",
+      "territory": "F62"
+    },
+    {
+      "terr-ase-linker": "af70",
+      "ase": "F70",
+      "territory": "F71"
+    },
+    {
+      "terr-ase-linker": "ag210",
+      "ase": "G210",
+      "territory": "G211"
+    },
+    {
+      "terr-ase-linker": "ag220",
+      "ase": "G220",
+      "territory": "G221"
+    },
+    {
+      "terr-ase-linker": "ag220",
+      "ase": "G220",
+      "territory": "G222"
+    },
+    {
+      "terr-ase-linker": "ag230",
+      "ase": "G230",
+      "territory": "G231"
+    },
+    {
+      "terr-ase-linker": "ag230",
+      "ase": "G230",
+      "territory": "G232"
+    },
+    {
+      "terr-ase-linker": "ag240",
+      "ase": "G240",
+      "territory": "G241"
+    },
+    {
+      "terr-ase-linker": "ag240",
+      "ase": "G240",
+      "territory": "G242"
+    },
+    {
+      "terr-ase-linker": "ag250",
+      "ase": "G250",
+      "territory": "G251"
+    },
+    {
+      "terr-ase-linker": "ag250",
+      "ase": "G250",
+      "territory": "G252"
+    },
+    {
+      "terr-ase-linker": "ag260",
+      "ase": "G260",
+      "territory": "G261"
+    },
+    {
+      "terr-ase-linker": "ag260",
+      "ase": "G260",
+      "territory": "G262"
+    },
+    {
+      "terr-ase-linker": "ag270",
+      "ase": "G270",
+      "territory": "G271"
+    },
+    {
+      "terr-ase-linker": "ag270",
+      "ase": "G270",
+      "territory": "G272"
+    },
+    {
+      "terr-ase-linker": "ag300",
+      "ase": "G300",
+      "territory": "G301"
+    },
+    {
+      "terr-ase-linker": "ag300",
+      "ase": "G300",
+      "territory": "G302"
+    },
+    {
+      "terr-ase-linker": "ag310",
+      "ase": "G310",
+      "territory": "G311"
+    },
+    {
+      "terr-ase-linker": "ag310",
+      "ase": "G310",
+      "territory": "G312"
+    },
+    {
+      "terr-ase-linker": "ag320",
+      "ase": "G320",
+      "territory": "G321"
+    },
+    {
+      "terr-ase-linker": "ag320",
+      "ase": "G320",
+      "territory": "G322"
+    },
+    {
+      "terr-ase-linker": "ag330",
+      "ase": "G330",
+      "territory": "G331"
+    },
+    {
+      "terr-ase-linker": "ag330",
+      "ase": "G330",
+      "territory": "G332"
+    },
+    {
+      "terr-ase-linker": "ag340",
+      "ase": "G340",
+      "territory": "G341"
+    },
+    {
+      "terr-ase-linker": "ag340",
+      "ase": "G340",
+      "territory": "G342"
+    },
+    {
+      "terr-ase-linker": "ag350",
+      "ase": "G350",
+      "territory": "G351"
+    },
+    {
+      "terr-ase-linker": "ag350",
+      "ase": "G350",
+      "territory": "G352"
+    },
+    {
+      "terr-ase-linker": "ag360",
+      "ase": "G360",
+      "territory": "G361"
+    },
+    {
+      "terr-ase-linker": "ag410",
+      "ase": "G410",
+      "territory": "G411"
+    },
+    {
+      "terr-ase-linker": "ag410",
+      "ase": "G410",
+      "territory": "G412"
+    },
+    {
+      "terr-ase-linker": "ag420",
+      "ase": "G420",
+      "territory": "G421"
+    },
+    {
+      "terr-ase-linker": "ag430",
+      "ase": "G430",
+      "territory": "G431"
+    },
+    {
+      "terr-ase-linker": "ag430",
+      "ase": "G430",
+      "territory": "G432"
+    },
+    {
+      "terr-ase-linker": "ag440",
+      "ase": "G440",
+      "territory": "G441"
+    },
+    {
+      "terr-ase-linker": "ag440",
+      "ase": "G440",
+      "territory": "G442"
+    },
+    {
+      "terr-ase-linker": "ag450",
+      "ase": "G450",
+      "territory": "G451"
+    },
+    {
+      "terr-ase-linker": "ag450",
+      "ase": "G450",
+      "territory": "G452"
+    },
+    {
+      "terr-ase-linker": "ag460",
+      "ase": "G460",
+      "territory": "G461"
+    },
+    {
+      "terr-ase-linker": "ag470",
+      "ase": "G470",
+      "territory": "G471"
+    },
+    {
+      "terr-ase-linker": "ag470",
+      "ase": "G470",
+      "territory": "G472"
+    },
+    {
+      "terr-ase-linker": "aj210",
+      "ase": "J210",
+      "territory": "J211"
+    },
+    {
+      "terr-ase-linker": "aj220",
+      "ase": "J220",
+      "territory": "J221"
+    },
+    {
+      "terr-ase-linker": "aj220",
+      "ase": "J220",
+      "territory": "J222"
+    },
+    {
+      "terr-ase-linker": "aj230",
+      "ase": "J230",
+      "territory": "J231"
+    },
+    {
+      "terr-ase-linker": "aj230",
+      "ase": "J230",
+      "territory": "J232"
+    },
+    {
+      "terr-ase-linker": "aj240",
+      "ase": "J240",
+      "territory": "J241"
+    },
+    {
+      "terr-ase-linker": "aj240",
+      "ase": "J240",
+      "territory": "J242"
+    },
+    {
+      "terr-ase-linker": "aj250",
+      "ase": "J250",
+      "territory": "J251"
+    },
+    {
+      "terr-ase-linker": "aj250",
+      "ase": "J250",
+      "territory": "J252"
+    },
+    {
+      "terr-ase-linker": "aj260",
+      "ase": "J260",
+      "territory": "J261"
+    },
+    {
+      "terr-ase-linker": "aj260",
+      "ase": "J260",
+      "territory": "J262"
+    },
+    {
+      "terr-ase-linker": "aj270",
+      "ase": "J270",
+      "territory": "J271"
+    },
+    {
+      "terr-ase-linker": "aj270",
+      "ase": "J270",
+      "territory": "J272"
+    },
+    {
+      "terr-ase-linker": "aj280",
+      "ase": "J280",
+      "territory": "J281"
+    },
+    {
+      "terr-ase-linker": "aj280",
+      "ase": "J280",
+      "territory": "J282"
+    },
+    {
+      "terr-ase-linker": "ak10",
+      "ase": "K10",
+      "territory": "K11"
+    },
+    {
+      "terr-ase-linker": "ak10",
+      "ase": "K10",
+      "territory": "K12"
+    },
+    {
+      "terr-ase-linker": "ak20",
+      "ase": "K20",
+      "territory": "K21"
+    },
+    {
+      "terr-ase-linker": "ak30",
+      "ase": "K30",
+      "territory": "K31"
+    },
+    {
+      "terr-ase-linker": "ak310",
+      "ase": "K310",
+      "territory": "K311"
+    },
+    {
+      "terr-ase-linker": "ak310",
+      "ase": "K310",
+      "territory": "K312"
+    },
+    {
+      "terr-ase-linker": "ak310",
+      "ase": "K310",
+      "territory": "K313"
+    },
+    {
+      "terr-ase-linker": "ak30",
+      "ase": "K30",
+      "territory": "K32"
+    },
+    {
+      "terr-ase-linker": "ak320",
+      "ase": "K320",
+      "territory": "K321"
+    },
+    {
+      "terr-ase-linker": "ak320",
+      "ase": "K320",
+      "territory": "K322"
+    },
+    {
+      "terr-ase-linker": "ak320",
+      "ase": "K320",
+      "territory": "K323"
+    },
+    {
+      "terr-ase-linker": "ak330",
+      "ase": "K330",
+      "territory": "K331"
+    },
+    {
+      "terr-ase-linker": "ak330",
+      "ase": "K330",
+      "territory": "K332"
+    },
+    {
+      "terr-ase-linker": "ak340",
+      "ase": "K340",
+      "territory": "K341"
+    },
+    {
+      "terr-ase-linker": "ak340",
+      "ase": "K340",
+      "territory": "K342"
+    },
+    {
+      "terr-ase-linker": "ak340",
+      "ase": "K340",
+      "territory": "K343"
+    },
+    {
+      "terr-ase-linker": "ak350",
+      "ase": "K350",
+      "territory": "K351"
+    },
+    {
+      "terr-ase-linker": "ak350",
+      "ase": "K350",
+      "territory": "K352"
+    },
+    {
+      "terr-ase-linker": "ak350",
+      "ase": "K350",
+      "territory": "K353"
+    },
+    {
+      "terr-ase-linker": "ak360",
+      "ase": "K360",
+      "territory": "K361"
+    },
+    {
+      "terr-ase-linker": "ak360",
+      "ase": "K360",
+      "territory": "K362"
+    },
+    {
+      "terr-ase-linker": "ak360",
+      "ase": "K360",
+      "territory": "K363"
+    },
+    {
+      "terr-ase-linker": "ak40",
+      "ase": "K40",
+      "territory": "K41"
+    },
+    {
+      "terr-ase-linker": "ak410",
+      "ase": "K410",
+      "territory": "K411"
+    },
+    {
+      "terr-ase-linker": "ak40",
+      "ase": "K40",
+      "territory": "K42"
+    },
+    {
+      "terr-ase-linker": "ak420",
+      "ase": "K420",
+      "territory": "K421"
+    },
+    {
+      "terr-ase-linker": "ak430",
+      "ase": "K430",
+      "territory": "K431"
+    },
+    {
+      "terr-ase-linker": "ak430",
+      "ase": "K430",
+      "territory": "K432"
+    },
+    {
+      "terr-ase-linker": "ak440",
+      "ase": "K440",
+      "territory": "K441"
+    },
+    {
+      "terr-ase-linker": "ak440",
+      "ase": "K440",
+      "territory": "K442"
+    },
+    {
+      "terr-ase-linker": "ak450",
+      "ase": "K450",
+      "territory": "K451"
+    },
+    {
+      "terr-ase-linker": "ak450",
+      "ase": "K450",
+      "territory": "K452"
+    },
+    {
+      "terr-ase-linker": "ak460",
+      "ase": "K460",
+      "territory": "K461"
+    },
+    {
+      "terr-ase-linker": "ak460",
+      "ase": "K460",
+      "territory": "K462"
+    },
+    {
+      "terr-ase-linker": "ak470",
+      "ase": "K470",
+      "territory": "K471"
+    },
+    {
+      "terr-ase-linker": "ak470",
+      "ase": "K470",
+      "territory": "K472"
+    },
+    {
+      "terr-ase-linker": "ak480",
+      "ase": "K480",
+      "territory": "K481"
+    },
+    {
+      "terr-ase-linker": "ak480",
+      "ase": "K480",
+      "territory": "K482"
+    },
+    {
+      "terr-ase-linker": "ak490",
+      "ase": "K490",
+      "territory": "K491"
+    },
+    {
+      "terr-ase-linker": "ak490",
+      "ase": "K490",
+      "territory": "K492"
+    },
+    {
+      "terr-ase-linker": "ak50",
+      "ase": "K50",
+      "territory": "K51"
+    },
+    {
+      "terr-ase-linker": "ak510",
+      "ase": "K510",
+      "territory": "K511"
+    },
+    {
+      "terr-ase-linker": "ak50",
+      "ase": "K50",
+      "territory": "K52"
+    },
+    {
+      "terr-ase-linker": "ak520",
+      "ase": "K520",
+      "territory": "K521"
+    },
+    {
+      "terr-ase-linker": "ak520",
+      "ase": "K520",
+      "territory": "K522"
+    },
+    {
+      "terr-ase-linker": "ak530",
+      "ase": "K530",
+      "territory": "K531"
+    },
+    {
+      "terr-ase-linker": "ak530",
+      "ase": "K530",
+      "territory": "K532"
+    },
+    {
+      "terr-ase-linker": "ak540",
+      "ase": "K540",
+      "territory": "K541"
+    },
+    {
+      "terr-ase-linker": "ak540",
+      "ase": "K540",
+      "territory": "K542"
+    },
+    {
+      "terr-ase-linker": "ak550",
+      "ase": "K550",
+      "territory": "K551"
+    },
+    {
+      "terr-ase-linker": "ak560",
+      "ase": "K560",
+      "territory": "K561"
+    },
+    {
+      "terr-ase-linker": "ak560",
+      "ase": "K560",
+      "territory": "K562"
+    },
+    {
+      "terr-ase-linker": "ak60",
+      "ase": "K60",
+      "territory": "K61"
+    },
+    {
+      "terr-ase-linker": "ak610",
+      "ase": "K610",
+      "territory": "K611"
+    },
+    {
+      "terr-ase-linker": "ak610",
+      "ase": "K610",
+      "territory": "K612"
+    },
+    {
+      "terr-ase-linker": "ak620",
+      "ase": "K620",
+      "territory": "K621"
+    },
+    {
+      "terr-ase-linker": "ak620",
+      "ase": "K620",
+      "territory": "K622"
+    },
+    {
+      "terr-ase-linker": "ak620",
+      "ase": "K620",
+      "territory": "K623"
+    },
+    {
+      "terr-ase-linker": "ak630",
+      "ase": "K630",
+      "territory": "K631"
+    },
+    {
+      "terr-ase-linker": "ak630",
+      "ase": "K630",
+      "territory": "K632"
+    },
+    {
+      "terr-ase-linker": "ak630",
+      "ase": "K630",
+      "territory": "K633"
+    },
+    {
+      "terr-ase-linker": "ak640",
+      "ase": "K640",
+      "territory": "K641"
+    },
+    {
+      "terr-ase-linker": "ak640",
+      "ase": "K640",
+      "territory": "K642"
+    },
+    {
+      "terr-ase-linker": "ak640",
+      "ase": "K640",
+      "territory": "K643"
+    },
+    {
+      "terr-ase-linker": "ak650",
+      "ase": "K650",
+      "territory": "K651"
+    },
+    {
+      "terr-ase-linker": "ak650",
+      "ase": "K650",
+      "territory": "K652"
+    },
+    {
+      "terr-ase-linker": "ak650",
+      "ase": "K650",
+      "territory": "K653"
+    },
+    {
+      "terr-ase-linker": "ak70",
+      "ase": "K70",
+      "territory": "K71"
+    },
+    {
+      "terr-ase-linker": "ak70",
+      "ase": "K70",
+      "territory": "K72"
+    },
+    {
+      "terr-ase-linker": "ak80",
+      "ase": "K80",
+      "territory": "K81"
+    },
+    {
+      "terr-ase-linker": "ak80",
+      "ase": "K80",
+      "territory": "K82"
+    },
+    {
+      "terr-ase-linker": "am10",
+      "ase": "M10",
+      "territory": "M11"
+    },
+    {
+      "terr-ase-linker": "am10",
+      "ase": "M10",
+      "territory": "M12"
+    },
+    {
+      "terr-ase-linker": "am200",
+      "ase": "M200",
+      "territory": "M201"
+    },
+    {
+      "terr-ase-linker": "am200",
+      "ase": "M200",
+      "territory": "M202"
+    },
+    {
+      "terr-ase-linker": "am200",
+      "ase": "M200",
+      "territory": "M203"
+    },
+    {
+      "terr-ase-linker": "am20",
+      "ase": "M20",
+      "territory": "M21"
+    },
+    {
+      "terr-ase-linker": "am210",
+      "ase": "M210",
+      "territory": "M211"
+    },
+    {
+      "terr-ase-linker": "am210",
+      "ase": "M210",
+      "territory": "M212"
+    },
+    {
+      "terr-ase-linker": "am210",
+      "ase": "M210",
+      "territory": "M213"
+    },
+    {
+      "terr-ase-linker": "am20",
+      "ase": "M20",
+      "territory": "M22"
+    },
+    {
+      "terr-ase-linker": "am220",
+      "ase": "M220",
+      "territory": "M221"
+    },
+    {
+      "terr-ase-linker": "am220",
+      "ase": "M220",
+      "territory": "M222"
+    },
+    {
+      "terr-ase-linker": "am220",
+      "ase": "M220",
+      "territory": "M223"
+    },
+    {
+      "terr-ase-linker": "am230",
+      "ase": "M230",
+      "territory": "M231"
+    },
+    {
+      "terr-ase-linker": "am230",
+      "ase": "M230",
+      "territory": "M232"
+    },
+    {
+      "terr-ase-linker": "am230",
+      "ase": "M230",
+      "territory": "M233"
+    },
+    {
+      "terr-ase-linker": "am240",
+      "ase": "M240",
+      "territory": "M241"
+    },
+    {
+      "terr-ase-linker": "am240",
+      "ase": "M240",
+      "territory": "M242"
+    },
+    {
+      "terr-ase-linker": "am240",
+      "ase": "M240",
+      "territory": "M243"
+    },
+    {
+      "terr-ase-linker": "am250",
+      "ase": "M250",
+      "territory": "M251"
+    },
+    {
+      "terr-ase-linker": "am250",
+      "ase": "M250",
+      "territory": "M252"
+    },
+    {
+      "terr-ase-linker": "am250",
+      "ase": "M250",
+      "territory": "M253"
+    },
+    {
+      "terr-ase-linker": "am300",
+      "ase": "M300",
+      "territory": "M301"
+    },
+    {
+      "terr-ase-linker": "am300",
+      "ase": "M300",
+      "territory": "M302"
+    },
+    {
+      "terr-ase-linker": "am30",
+      "ase": "M30",
+      "territory": "M31"
+    },
+    {
+      "terr-ase-linker": "am310",
+      "ase": "M310",
+      "territory": "M311"
+    },
+    {
+      "terr-ase-linker": "am320",
+      "ase": "M320",
+      "territory": "M321"
+    },
+    {
+      "terr-ase-linker": "am320",
+      "ase": "M320",
+      "territory": "M322"
+    },
+    {
+      "terr-ase-linker": "am330",
+      "ase": "M330",
+      "territory": "M331"
+    },
+    {
+      "terr-ase-linker": "am330",
+      "ase": "M330",
+      "territory": "M332"
+    },
+    {
+      "terr-ase-linker": "am340",
+      "ase": "M340",
+      "territory": "M341"
+    },
+    {
+      "terr-ase-linker": "am340",
+      "ase": "M340",
+      "territory": "M342"
+    },
+    {
+      "terr-ase-linker": "am350",
+      "ase": "M350",
+      "territory": "M351"
+    },
+    {
+      "terr-ase-linker": "am350",
+      "ase": "M350",
+      "territory": "M352"
+    },
+    {
+      "terr-ase-linker": "am360",
+      "ase": "M360",
+      "territory": "M361"
+    },
+    {
+      "terr-ase-linker": "am360",
+      "ase": "M360",
+      "territory": "M362"
+    },
+    {
+      "terr-ase-linker": "am370",
+      "ase": "M370",
+      "territory": "M371"
+    },
+    {
+      "terr-ase-linker": "am370",
+      "ase": "M370",
+      "territory": "M372"
+    },
+    {
+      "terr-ase-linker": "am380",
+      "ase": "M380",
+      "territory": "M381"
+    },
+    {
+      "terr-ase-linker": "am380",
+      "ase": "M380",
+      "territory": "M382"
+    },
+    {
+      "terr-ase-linker": "am40",
+      "ase": "M40",
+      "territory": "M41"
+    },
+    {
+      "terr-ase-linker": "am40",
+      "ase": "M40",
+      "territory": "M42"
+    },
+    {
+      "terr-ase-linker": "am50",
+      "ase": "M50",
+      "territory": "M51"
+    },
+    {
+      "terr-ase-linker": "am510",
+      "ase": "M510",
+      "territory": "M511"
+    },
+    {
+      "terr-ase-linker": "am510",
+      "ase": "M510",
+      "territory": "M512"
+    },
+    {
+      "terr-ase-linker": "am50",
+      "ase": "M50",
+      "territory": "M52"
+    },
+    {
+      "terr-ase-linker": "am520",
+      "ase": "M520",
+      "territory": "M521"
+    },
+    {
+      "terr-ase-linker": "am520",
+      "ase": "M520",
+      "territory": "M522"
+    },
+    {
+      "terr-ase-linker": "am530",
+      "ase": "M530",
+      "territory": "M531"
+    },
+    {
+      "terr-ase-linker": "am540",
+      "ase": "M540",
+      "territory": "M541"
+    },
+    {
+      "terr-ase-linker": "am550",
+      "ase": "M550",
+      "territory": "M551"
+    },
+    {
+      "terr-ase-linker": "am550",
+      "ase": "M550",
+      "territory": "M552"
+    },
+    {
+      "terr-ase-linker": "am560",
+      "ase": "M560",
+      "territory": "M561"
+    },
+    {
+      "terr-ase-linker": "am560",
+      "ase": "M560",
+      "territory": "M562"
+    },
+    {
+      "terr-ase-linker": "am570",
+      "ase": "M570",
+      "territory": "M571"
+    },
+    {
+      "terr-ase-linker": "am570",
+      "ase": "M570",
+      "territory": "M572"
+    },
+    {
+      "terr-ase-linker": "am60",
+      "ase": "M60",
+      "territory": "M61"
+    },
+    {
+      "terr-ase-linker": "am610",
+      "ase": "M610",
+      "territory": "M611"
+    },
+    {
+      "terr-ase-linker": "am620",
+      "ase": "M620",
+      "territory": "M621"
+    },
+    {
+      "terr-ase-linker": "am620",
+      "ase": "M620",
+      "territory": "M622"
+    },
+    {
+      "terr-ase-linker": "am630",
+      "ase": "M630",
+      "territory": "M631"
+    },
+    {
+      "terr-ase-linker": "am640",
+      "ase": "M640",
+      "territory": "M641"
+    },
+    {
+      "terr-ase-linker": "am640",
+      "ase": "M640",
+      "territory": "M642"
+    },
+    {
+      "terr-ase-linker": "am650",
+      "ase": "M650",
+      "territory": "M651"
+    },
+    {
+      "terr-ase-linker": "am650",
+      "ase": "M650",
+      "territory": "M652"
+    },
+    {
+      "terr-ase-linker": "am660",
+      "ase": "M660",
+      "territory": "M661"
+    },
+    {
+      "terr-ase-linker": "am660",
+      "ase": "M660",
+      "territory": "M662"
+    },
+    {
+      "terr-ase-linker": "am670",
+      "ase": "M670",
+      "territory": "M671"
+    },
+    {
+      "terr-ase-linker": "am670",
+      "ase": "M670",
+      "territory": "M672"
+    },
+    {
+      "terr-ase-linker": "am70",
+      "ase": "M70",
+      "territory": "M71"
+    },
+    {
+      "terr-ase-linker": "am710",
+      "ase": "M710",
+      "territory": "M711"
+    },
+    {
+      "terr-ase-linker": "am710",
+      "ase": "M710",
+      "territory": "M712"
+    },
+    {
+      "terr-ase-linker": "am70",
+      "ase": "M70",
+      "territory": "M72"
+    },
+    {
+      "terr-ase-linker": "am720",
+      "ase": "M720",
+      "territory": "M721"
+    },
+    {
+      "terr-ase-linker": "am720",
+      "ase": "M720",
+      "territory": "M722"
+    },
+    {
+      "terr-ase-linker": "am730",
+      "ase": "M730",
+      "territory": "M731"
+    },
+    {
+      "terr-ase-linker": "am730",
+      "ase": "M730",
+      "territory": "M732"
+    },
+    {
+      "terr-ase-linker": "am740",
+      "ase": "M740",
+      "territory": "M741"
+    },
+    {
+      "terr-ase-linker": "am740",
+      "ase": "M740",
+      "territory": "M742"
+    },
+    {
+      "terr-ase-linker": "am750",
+      "ase": "M750",
+      "territory": "M751"
+    },
+    {
+      "terr-ase-linker": "am750",
+      "ase": "M750",
+      "territory": "M752"
+    },
+    {
+      "terr-ase-linker": "am760",
+      "ase": "M760",
+      "territory": "M761"
+    },
+    {
+      "terr-ase-linker": "am760",
+      "ase": "M760",
+      "territory": "M762"
+    },
+    {
+      "terr-ase-linker": "am770",
+      "ase": "M770",
+      "territory": "M771"
+    },
+    {
+      "terr-ase-linker": "am770",
+      "ase": "M770",
+      "territory": "M772"
+    },
+    {
+      "terr-ase-linker": "am800",
+      "ase": "M800",
+      "territory": "M801"
+    },
+    {
+      "terr-ase-linker": "am800",
+      "ase": "M800",
+      "territory": "M802"
+    },
+    {
+      "terr-ase-linker": "am80",
+      "ase": "M80",
+      "territory": "M81"
+    },
+    {
+      "terr-ase-linker": "am810",
+      "ase": "M810",
+      "territory": "M811"
+    },
+    {
+      "terr-ase-linker": "am810",
+      "ase": "M810",
+      "territory": "M812"
+    },
+    {
+      "terr-ase-linker": "am810",
+      "ase": "M810",
+      "territory": "M813"
+    },
+    {
+      "terr-ase-linker": "am80",
+      "ase": "M80",
+      "territory": "M82"
+    },
+    {
+      "terr-ase-linker": "am820",
+      "ase": "M820",
+      "territory": "M821"
+    },
+    {
+      "terr-ase-linker": "am820",
+      "ase": "M820",
+      "territory": "M822"
+    },
+    {
+      "terr-ase-linker": "am820",
+      "ase": "M820",
+      "territory": "M823"
+    },
+    {
+      "terr-ase-linker": "am830",
+      "ase": "M830",
+      "territory": "M831"
+    },
+    {
+      "terr-ase-linker": "am830",
+      "ase": "M830",
+      "territory": "M832"
+    },
+    {
+      "terr-ase-linker": "am830",
+      "ase": "M830",
+      "territory": "M833"
+    },
+    {
+      "terr-ase-linker": "am840",
+      "ase": "M840",
+      "territory": "M841"
+    },
+    {
+      "terr-ase-linker": "am840",
+      "ase": "M840",
+      "territory": "M842"
+    },
+    {
+      "terr-ase-linker": "am840",
+      "ase": "M840",
+      "territory": "M843"
+    },
+    {
+      "terr-ase-linker": "am850",
+      "ase": "M850",
+      "territory": "M851"
+    },
+    {
+      "terr-ase-linker": "am850",
+      "ase": "M850",
+      "territory": "M852"
+    },
+    {
+      "terr-ase-linker": "am860",
+      "ase": "M860",
+      "territory": "M861"
+    },
+    {
+      "terr-ase-linker": "am860",
+      "ase": "M860",
+      "territory": "M862"
+    },
+    {
+      "terr-ase-linker": "am90",
+      "ase": "M90",
+      "territory": "M91"
+    },
+    {
+      "terr-ase-linker": "am910",
+      "ase": "M910",
+      "territory": "M911"
+    },
+    {
+      "terr-ase-linker": "am90",
+      "ase": "M90",
+      "territory": "M92"
+    },
+    {
+      "terr-ase-linker": "am920",
+      "ase": "M920",
+      "territory": "M921"
+    },
+    {
+      "terr-ase-linker": "am920",
+      "ase": "M920",
+      "territory": "M922"
+    },
+    {
+      "terr-ase-linker": "am930",
+      "ase": "M930",
+      "territory": "M931"
+    },
+    {
+      "terr-ase-linker": "am930",
+      "ase": "M930",
+      "territory": "M932"
+    },
+    {
+      "terr-ase-linker": "am940",
+      "ase": "M940",
+      "territory": "M941"
+    },
+    {
+      "terr-ase-linker": "am940",
+      "ase": "M940",
+      "territory": "M942"
+    },
+    {
+      "terr-ase-linker": "am950",
+      "ase": "M950",
+      "territory": "M951"
+    },
+    {
+      "terr-ase-linker": "am950",
+      "ase": "M950",
+      "territory": "M952"
+    },
+    {
+      "terr-ase-linker": "an10",
+      "ase": "N10",
+      "territory": "N11"
+    },
+    {
+      "terr-ase-linker": "an10",
+      "ase": "N10",
+      "territory": "N12"
+    },
+    {
+      "terr-ase-linker": "an20",
+      "ase": "N20",
+      "territory": "N21"
+    },
+    {
+      "terr-ase-linker": "an210",
+      "ase": "N210",
+      "territory": "N211"
+    },
+    {
+      "terr-ase-linker": "an220",
+      "ase": "N220",
+      "territory": "N221"
+    },
+    {
+      "terr-ase-linker": "an230",
+      "ase": "N230",
+      "territory": "N231"
+    },
+    {
+      "terr-ase-linker": "an230",
+      "ase": "N230",
+      "territory": "N232"
+    },
+    {
+      "terr-ase-linker": "an240",
+      "ase": "N240",
+      "territory": "N241"
+    },
+    {
+      "terr-ase-linker": "an240",
+      "ase": "N240",
+      "territory": "N242"
+    },
+    {
+      "terr-ase-linker": "an250",
+      "ase": "N250",
+      "territory": "N251"
+    },
+    {
+      "terr-ase-linker": "an250",
+      "ase": "N250",
+      "territory": "N252"
+    },
+    {
+      "terr-ase-linker": "an260",
+      "ase": "N260",
+      "territory": "N261"
+    },
+    {
+      "terr-ase-linker": "an260",
+      "ase": "N260",
+      "territory": "N262"
+    },
+    {
+      "terr-ase-linker": "an270",
+      "ase": "N270",
+      "territory": "N271"
+    },
+    {
+      "terr-ase-linker": "an270",
+      "ase": "N270",
+      "territory": "N272"
+    },
+    {
+      "terr-ase-linker": "an280",
+      "ase": "N280",
+      "territory": "N281"
+    },
+    {
+      "terr-ase-linker": "an280",
+      "ase": "N280",
+      "territory": "N282"
+    },
+    {
+      "terr-ase-linker": "an300",
+      "ase": "N300",
+      "territory": "N301"
+    },
+    {
+      "terr-ase-linker": "an30",
+      "ase": "N30",
+      "territory": "N31"
+    },
+    {
+      "terr-ase-linker": "an310",
+      "ase": "N310",
+      "territory": "N311"
+    },
+    {
+      "terr-ase-linker": "an30",
+      "ase": "N30",
+      "territory": "N32"
+    },
+    {
+      "terr-ase-linker": "an320",
+      "ase": "N320",
+      "territory": "N321"
+    },
+    {
+      "terr-ase-linker": "an320",
+      "ase": "N320",
+      "territory": "N322"
+    },
+    {
+      "terr-ase-linker": "an330",
+      "ase": "N330",
+      "territory": "N331"
+    },
+    {
+      "terr-ase-linker": "an330",
+      "ase": "N330",
+      "territory": "N332"
+    },
+    {
+      "terr-ase-linker": "an340",
+      "ase": "N340",
+      "territory": "N341"
+    },
+    {
+      "terr-ase-linker": "an340",
+      "ase": "N340",
+      "territory": "N342"
+    },
+    {
+      "terr-ase-linker": "an350",
+      "ase": "N350",
+      "territory": "N351"
+    },
+    {
+      "terr-ase-linker": "an350",
+      "ase": "N350",
+      "territory": "N352"
+    },
+    {
+      "terr-ase-linker": "an360",
+      "ase": "N360",
+      "territory": "N361"
+    },
+    {
+      "terr-ase-linker": "an360",
+      "ase": "N360",
+      "territory": "N362"
+    },
+    {
+      "terr-ase-linker": "an370",
+      "ase": "N370",
+      "territory": "N371"
+    },
+    {
+      "terr-ase-linker": "an40",
+      "ase": "N40",
+      "territory": "N41"
+    },
+    {
+      "terr-ase-linker": "an410",
+      "ase": "N410",
+      "territory": "N411"
+    },
+    {
+      "terr-ase-linker": "an410",
+      "ase": "N410",
+      "territory": "N412"
+    },
+    {
+      "terr-ase-linker": "an40",
+      "ase": "N40",
+      "territory": "N42"
+    },
+    {
+      "terr-ase-linker": "an420",
+      "ase": "N420",
+      "territory": "N421"
+    },
+    {
+      "terr-ase-linker": "an420",
+      "ase": "N420",
+      "territory": "N422"
+    },
+    {
+      "terr-ase-linker": "an420",
+      "ase": "N420",
+      "territory": "N423"
+    },
+    {
+      "terr-ase-linker": "an430",
+      "ase": "N430",
+      "territory": "N431"
+    },
+    {
+      "terr-ase-linker": "an430",
+      "ase": "N430",
+      "territory": "N432"
+    },
+    {
+      "terr-ase-linker": "an440",
+      "ase": "N440",
+      "territory": "N441"
+    },
+    {
+      "terr-ase-linker": "an440",
+      "ase": "N440",
+      "territory": "N442"
+    },
+    {
+      "terr-ase-linker": "an440",
+      "ase": "N440",
+      "territory": "N443"
+    },
+    {
+      "terr-ase-linker": "an450",
+      "ase": "N450",
+      "territory": "N451"
+    },
+    {
+      "terr-ase-linker": "an450",
+      "ase": "N450",
+      "territory": "N452"
+    },
+    {
+      "terr-ase-linker": "an450",
+      "ase": "N450",
+      "territory": "N453"
+    },
+    {
+      "terr-ase-linker": "an460",
+      "ase": "N460",
+      "territory": "N461"
+    },
+    {
+      "terr-ase-linker": "an460",
+      "ase": "N460",
+      "territory": "N462"
+    },
+    {
+      "terr-ase-linker": "an460",
+      "ase": "N460",
+      "territory": "N463"
+    },
+    {
+      "terr-ase-linker": "an50",
+      "ase": "N50",
+      "territory": "N51"
+    },
+    {
+      "terr-ase-linker": "an510",
+      "ase": "N510",
+      "territory": "N511"
+    },
+    {
+      "terr-ase-linker": "an510",
+      "ase": "N510",
+      "territory": "N512"
+    },
+    {
+      "terr-ase-linker": "an520",
+      "ase": "N520",
+      "territory": "N521"
+    },
+    {
+      "terr-ase-linker": "an520",
+      "ase": "N520",
+      "territory": "N522"
+    },
+    {
+      "terr-ase-linker": "an530",
+      "ase": "N530",
+      "territory": "N531"
+    },
+    {
+      "terr-ase-linker": "an530",
+      "ase": "N530",
+      "territory": "N532"
+    },
+    {
+      "terr-ase-linker": "an540",
+      "ase": "N540",
+      "territory": "N541"
+    },
+    {
+      "terr-ase-linker": "an540",
+      "ase": "N540",
+      "territory": "N542"
+    },
+    {
+      "terr-ase-linker": "an550",
+      "ase": "N550",
+      "territory": "N551"
+    },
+    {
+      "terr-ase-linker": "an550",
+      "ase": "N550",
+      "territory": "N552"
+    },
+    {
+      "terr-ase-linker": "an560",
+      "ase": "N560",
+      "territory": "N561"
+    },
+    {
+      "terr-ase-linker": "an570",
+      "ase": "N570",
+      "territory": "N571"
+    },
+    {
+      "terr-ase-linker": "an600",
+      "ase": "N600",
+      "territory": "N601"
+    },
+    {
+      "terr-ase-linker": "an600",
+      "ase": "N600",
+      "territory": "N602"
+    },
+    {
+      "terr-ase-linker": "an600",
+      "ase": "N600",
+      "territory": "N603"
+    },
+    {
+      "terr-ase-linker": "an60",
+      "ase": "N60",
+      "territory": "N61"
+    },
+    {
+      "terr-ase-linker": "an610",
+      "ase": "N610",
+      "territory": "N611"
+    },
+    {
+      "terr-ase-linker": "an610",
+      "ase": "N610",
+      "territory": "N612"
+    },
+    {
+      "terr-ase-linker": "an610",
+      "ase": "N610",
+      "territory": "N613"
+    },
+    {
+      "terr-ase-linker": "an60",
+      "ase": "N60",
+      "territory": "N62"
+    },
+    {
+      "terr-ase-linker": "an620",
+      "ase": "N620",
+      "territory": "N621"
+    },
+    {
+      "terr-ase-linker": "an620",
+      "ase": "N620",
+      "territory": "N622"
+    },
+    {
+      "terr-ase-linker": "an630",
+      "ase": "N630",
+      "territory": "N631"
+    },
+    {
+      "terr-ase-linker": "an630",
+      "ase": "N630",
+      "territory": "N632"
+    },
+    {
+      "terr-ase-linker": "an630",
+      "ase": "N630",
+      "territory": "N633"
+    },
+    {
+      "terr-ase-linker": "an640",
+      "ase": "N640",
+      "territory": "N641"
+    },
+    {
+      "terr-ase-linker": "an640",
+      "ase": "N640",
+      "territory": "N642"
+    },
+    {
+      "terr-ase-linker": "an650",
+      "ase": "N650",
+      "territory": "N651"
+    },
+    {
+      "terr-ase-linker": "an650",
+      "ase": "N650",
+      "territory": "N652"
+    },
+    {
+      "terr-ase-linker": "an650",
+      "ase": "N650",
+      "territory": "N653"
+    },
+    {
+      "terr-ase-linker": "an70",
+      "ase": "N70",
+      "territory": "N71"
+    },
+    {
+      "terr-ase-linker": "an70",
+      "ase": "N70",
+      "territory": "N72"
+    },
+    {
+      "terr-ase-linker": "an80",
+      "ase": "N80",
+      "territory": "N81"
+    },
+    {
+      "terr-ase-linker": "an80",
+      "ase": "N80",
+      "territory": "N82"
+    },
+    {
+      "terr-ase-linker": "an90",
+      "ase": "N90",
+      "territory": "N91"
+    },
+    {
+      "terr-ase-linker": "an90",
+      "ase": "N90",
+      "territory": "N92"
+    },
+    {
+      "terr-ase-linker": "ao100",
+      "ase": "O100",
+      "territory": "O101"
+    },
+    {
+      "terr-ase-linker": "ao110",
+      "ase": "O110",
+      "territory": "O111"
+    },
+    {
+      "terr-ase-linker": "ao120",
+      "ase": "O120",
+      "territory": "O121"
+    },
+    {
+      "terr-ase-linker": "ao120",
+      "ase": "O120",
+      "territory": "O122"
+    },
+    {
+      "terr-ase-linker": "ao130",
+      "ase": "O130",
+      "territory": "O131"
+    },
+    {
+      "terr-ase-linker": "ao130",
+      "ase": "O130",
+      "territory": "O132"
+    },
+    {
+      "terr-ase-linker": "ao140",
+      "ase": "O140",
+      "territory": "O141"
+    },
+    {
+      "terr-ase-linker": "ao140",
+      "ase": "O140",
+      "territory": "O142"
+    },
+    {
+      "terr-ase-linker": "ao150",
+      "ase": "O150",
+      "territory": "O151"
+    },
+    {
+      "terr-ase-linker": "ao150",
+      "ase": "O150",
+      "territory": "O152"
+    },
+    {
+      "terr-ase-linker": "ao160",
+      "ase": "O160",
+      "territory": "O161"
+    },
+    {
+      "terr-ase-linker": "ao160",
+      "ase": "O160",
+      "territory": "O162"
+    },
+    {
+      "terr-ase-linker": "ao170",
+      "ase": "O170",
+      "territory": "O171"
+    },
+    {
+      "terr-ase-linker": "ao170",
+      "ase": "O170",
+      "territory": "O172"
+    },
+    {
+      "terr-ase-linker": "ao180",
+      "ase": "O180",
+      "territory": "O181"
+    },
+    {
+      "terr-ase-linker": "ao180",
+      "ase": "O180",
+      "territory": "O182"
+    },
+    {
+      "terr-ase-linker": "ao190",
+      "ase": "O190",
+      "territory": "O191"
+    },
+    {
+      "terr-ase-linker": "ao190",
+      "ase": "O190",
+      "territory": "O192"
+    },
+    {
+      "terr-ase-linker": "ao510",
+      "ase": "O510",
+      "territory": "O511"
+    },
+    {
+      "terr-ase-linker": "ao510",
+      "ase": "O510",
+      "territory": "O512"
+    },
+    {
+      "terr-ase-linker": "ao510",
+      "ase": "O510",
+      "territory": "O513"
+    },
+    {
+      "terr-ase-linker": "ao510",
+      "ase": "O510",
+      "territory": "O514"
+    },
+    {
+      "terr-ase-linker": "ao510",
+      "ase": "O510",
+      "territory": "O515"
+    },
+    {
+      "terr-ase-linker": "ao520",
+      "ase": "O520",
+      "territory": "O521"
+    },
+    {
+      "terr-ase-linker": "ao520",
+      "ase": "O520",
+      "territory": "O522"
+    },
+    {
+      "terr-ase-linker": "ao520",
+      "ase": "O520",
+      "territory": "O523"
+    },
+    {
+      "terr-ase-linker": "ao520",
+      "ase": "O520",
+      "territory": "O524"
+    },
+    {
+      "terr-ase-linker": "ao520",
+      "ase": "O520",
+      "territory": "O525"
+    },
+    {
+      "terr-ase-linker": "ao530",
+      "ase": "O530",
+      "territory": "O531"
+    },
+    {
+      "terr-ase-linker": "ao530",
+      "ase": "O530",
+      "territory": "O532"
+    },
+    {
+      "terr-ase-linker": "ao530",
+      "ase": "O530",
+      "territory": "O533"
+    },
+    {
+      "terr-ase-linker": "ao530",
+      "ase": "O530",
+      "territory": "O534"
+    },
+    {
+      "terr-ase-linker": "ao610",
+      "ase": "O610",
+      "territory": "O611"
+    },
+    {
+      "terr-ase-linker": "ao610",
+      "ase": "O610",
+      "territory": "O612"
+    },
+    {
+      "terr-ase-linker": "ao610",
+      "ase": "O610",
+      "territory": "O613"
+    },
+    {
+      "terr-ase-linker": "ao610",
+      "ase": "O610",
+      "territory": "O614"
+    },
+    {
+      "terr-ase-linker": "ao610",
+      "ase": "O610",
+      "territory": "O615"
+    },
+    {
+      "terr-ase-linker": "ao620",
+      "ase": "O620",
+      "territory": "O621"
+    },
+    {
+      "terr-ase-linker": "ao620",
+      "ase": "O620",
+      "territory": "O622"
+    },
+    {
+      "terr-ase-linker": "ao620",
+      "ase": "O620",
+      "territory": "O623"
+    },
+    {
+      "terr-ase-linker": "ao620",
+      "ase": "O620",
+      "territory": "O624"
+    },
+    {
+      "terr-ase-linker": "ao620",
+      "ase": "O620",
+      "territory": "O625"
+    },
+    {
+      "terr-ase-linker": "ao630",
+      "ase": "O630",
+      "territory": "O631"
+    },
+    {
+      "terr-ase-linker": "ao630",
+      "ase": "O630",
+      "territory": "O632"
+    },
+    {
+      "terr-ase-linker": "ao630",
+      "ase": "O630",
+      "territory": "O633"
+    },
+    {
+      "terr-ase-linker": "ao630",
+      "ase": "O630",
+      "territory": "O634"
+    },
+    {
+      "terr-ase-linker": "ap10",
+      "ase": "P10",
+      "territory": "P11"
+    },
+    {
+      "terr-ase-linker": "ap10",
+      "ase": "P10",
+      "territory": "P12"
+    },
+    {
+      "terr-ase-linker": "ap20",
+      "ase": "P20",
+      "territory": "P21"
+    },
+    {
+      "terr-ase-linker": "ap210",
+      "ase": "P210",
+      "territory": "P211"
+    },
+    {
+      "terr-ase-linker": "ap210",
+      "ase": "P210",
+      "territory": "P212"
+    },
+    {
+      "terr-ase-linker": "ap20",
+      "ase": "P20",
+      "territory": "P22"
+    },
+    {
+      "terr-ase-linker": "ap220",
+      "ase": "P220",
+      "territory": "P221"
+    },
+    {
+      "terr-ase-linker": "ap230",
+      "ase": "P230",
+      "territory": "P231"
+    },
+    {
+      "terr-ase-linker": "ap230",
+      "ase": "P230",
+      "territory": "P232"
+    },
+    {
+      "terr-ase-linker": "ap240",
+      "ase": "P240",
+      "territory": "P241"
+    },
+    {
+      "terr-ase-linker": "ap240",
+      "ase": "P240",
+      "territory": "P242"
+    },
+    {
+      "terr-ase-linker": "ap250",
+      "ase": "P250",
+      "territory": "P251"
+    },
+    {
+      "terr-ase-linker": "ap250",
+      "ase": "P250",
+      "territory": "P252"
+    },
+    {
+      "terr-ase-linker": "ap260",
+      "ase": "P260",
+      "territory": "P261"
+    },
+    {
+      "terr-ase-linker": "ap260",
+      "ase": "P260",
+      "territory": "P262"
+    },
+    {
+      "terr-ase-linker": "ap270",
+      "ase": "P270",
+      "territory": "P271"
+    },
+    {
+      "terr-ase-linker": "ap270",
+      "ase": "P270",
+      "territory": "P272"
+    },
+    {
+      "terr-ase-linker": "ap30",
+      "ase": "P30",
+      "territory": "P31"
+    },
+    {
+      "terr-ase-linker": "ap40",
+      "ase": "P40",
+      "territory": "P41"
+    },
+    {
+      "terr-ase-linker": "ap40",
+      "ase": "P40",
+      "territory": "P42"
+    },
+    {
+      "terr-ase-linker": "ap50",
+      "ase": "P50",
+      "territory": "P51"
+    },
+    {
+      "terr-ase-linker": "ap50",
+      "ase": "P50",
+      "territory": "P52"
+    },
+    {
+      "terr-ase-linker": "ap60",
+      "ase": "P60",
+      "territory": "P61"
+    },
+    {
+      "terr-ase-linker": "ap60",
+      "ase": "P60",
+      "territory": "P62"
+    },
+    {
+      "terr-ase-linker": "ap70",
+      "ase": "P70",
+      "territory": "P71"
+    },
+    {
+      "terr-ase-linker": "ap70",
+      "ase": "P70",
+      "territory": "P72"
+    },
+    {
+      "terr-ase-linker": "ar10",
+      "ase": "R10",
+      "territory": "R11"
+    },
+    {
+      "terr-ase-linker": "ar200",
+      "ase": "R200",
+      "territory": "R201"
+    },
+    {
+      "terr-ase-linker": "ar200",
+      "ase": "R200",
+      "territory": "R202"
+    },
+    {
+      "terr-ase-linker": "ar20",
+      "ase": "R20",
+      "territory": "R21"
+    },
+    {
+      "terr-ase-linker": "ar210",
+      "ase": "R210",
+      "territory": "R211"
+    },
+    {
+      "terr-ase-linker": "ar210",
+      "ase": "R210",
+      "territory": "R212"
+    },
+    {
+      "terr-ase-linker": "ar20",
+      "ase": "R20",
+      "territory": "R22"
+    },
+    {
+      "terr-ase-linker": "ar220",
+      "ase": "R220",
+      "territory": "R221"
+    },
+    {
+      "terr-ase-linker": "ar220",
+      "ase": "R220",
+      "territory": "R222"
+    },
+    {
+      "terr-ase-linker": "ar220",
+      "ase": "R220",
+      "territory": "R223"
+    },
+    {
+      "terr-ase-linker": "ar230",
+      "ase": "R230",
+      "territory": "R231"
+    },
+    {
+      "terr-ase-linker": "ar230",
+      "ase": "R230",
+      "territory": "R232"
+    },
+    {
+      "terr-ase-linker": "ar240",
+      "ase": "R240",
+      "territory": "R241"
+    },
+    {
+      "terr-ase-linker": "ar240",
+      "ase": "R240",
+      "territory": "R242"
+    },
+    {
+      "terr-ase-linker": "ar250",
+      "ase": "R250",
+      "territory": "R251"
+    },
+    {
+      "terr-ase-linker": "ar250",
+      "ase": "R250",
+      "territory": "R252"
+    },
+    {
+      "terr-ase-linker": "ar30",
+      "ase": "R30",
+      "territory": "R31"
+    },
+    {
+      "terr-ase-linker": "ar310",
+      "ase": "R310",
+      "territory": "R311"
+    },
+    {
+      "terr-ase-linker": "ar310",
+      "ase": "R310",
+      "territory": "R312"
+    },
+    {
+      "terr-ase-linker": "ar30",
+      "ase": "R30",
+      "territory": "R32"
+    },
+    {
+      "terr-ase-linker": "ar320",
+      "ase": "R320",
+      "territory": "R321"
+    },
+    {
+      "terr-ase-linker": "ar330",
+      "ase": "R330",
+      "territory": "R331"
+    },
+    {
+      "terr-ase-linker": "ar330",
+      "ase": "R330",
+      "territory": "R332"
+    },
+    {
+      "terr-ase-linker": "ar340",
+      "ase": "R340",
+      "territory": "R341"
+    },
+    {
+      "terr-ase-linker": "ar340",
+      "ase": "R340",
+      "territory": "R342"
+    },
+    {
+      "terr-ase-linker": "ar350",
+      "ase": "R350",
+      "territory": "R351"
+    },
+    {
+      "terr-ase-linker": "ar350",
+      "ase": "R350",
+      "territory": "R352"
+    },
+    {
+      "terr-ase-linker": "ar360",
+      "ase": "R360",
+      "territory": "R361"
+    },
+    {
+      "terr-ase-linker": "ar360",
+      "ase": "R360",
+      "territory": "R362"
+    },
+    {
+      "terr-ase-linker": "ar40",
+      "ase": "R40",
+      "territory": "R41"
+    },
+    {
+      "terr-ase-linker": "ar410",
+      "ase": "R410",
+      "territory": "R411"
+    },
+    {
+      "terr-ase-linker": "ar410",
+      "ase": "R410",
+      "territory": "R412"
+    },
+    {
+      "terr-ase-linker": "ar410",
+      "ase": "R410",
+      "territory": "R413"
+    },
+    {
+      "terr-ase-linker": "ar40",
+      "ase": "R40",
+      "territory": "R42"
+    },
+    {
+      "terr-ase-linker": "ar420",
+      "ase": "R420",
+      "territory": "R421"
+    },
+    {
+      "terr-ase-linker": "ar420",
+      "ase": "R420",
+      "territory": "R422"
+    },
+    {
+      "terr-ase-linker": "ar420",
+      "ase": "R420",
+      "territory": "R423"
+    },
+    {
+      "terr-ase-linker": "ar430",
+      "ase": "R430",
+      "territory": "R431"
+    },
+    {
+      "terr-ase-linker": "ar430",
+      "ase": "R430",
+      "territory": "R432"
+    },
+    {
+      "terr-ase-linker": "ar440",
+      "ase": "R440",
+      "territory": "R441"
+    },
+    {
+      "terr-ase-linker": "ar440",
+      "ase": "R440",
+      "territory": "R442"
+    },
+    {
+      "terr-ase-linker": "ar440",
+      "ase": "R440",
+      "territory": "R443"
+    },
+    {
+      "terr-ase-linker": "ar450",
+      "ase": "R450",
+      "territory": "R451"
+    },
+    {
+      "terr-ase-linker": "ar450",
+      "ase": "R450",
+      "territory": "R452"
+    },
+    {
+      "terr-ase-linker": "ar450",
+      "ase": "R450",
+      "territory": "R453"
+    },
+    {
+      "terr-ase-linker": "ar50",
+      "ase": "R50",
+      "territory": "R51"
+    },
+    {
+      "terr-ase-linker": "ar510",
+      "ase": "R510",
+      "territory": "R511"
+    },
+    {
+      "terr-ase-linker": "ar50",
+      "ase": "R50",
+      "territory": "R52"
+    },
+    {
+      "terr-ase-linker": "ar520",
+      "ase": "R520",
+      "territory": "R521"
+    },
+    {
+      "terr-ase-linker": "ar520",
+      "ase": "R520",
+      "territory": "R522"
+    },
+    {
+      "terr-ase-linker": "ar530",
+      "ase": "R530",
+      "territory": "R531"
+    },
+    {
+      "terr-ase-linker": "ar530",
+      "ase": "R530",
+      "territory": "R532"
+    },
+    {
+      "terr-ase-linker": "ar540",
+      "ase": "R540",
+      "territory": "R541"
+    },
+    {
+      "terr-ase-linker": "ar540",
+      "ase": "R540",
+      "territory": "R542"
+    },
+    {
+      "terr-ase-linker": "ar550",
+      "ase": "R550",
+      "territory": "R551"
+    },
+    {
+      "terr-ase-linker": "ar550",
+      "ase": "R550",
+      "territory": "R552"
+    },
+    {
+      "terr-ase-linker": "ar560",
+      "ase": "R560",
+      "territory": "R561"
+    },
+    {
+      "terr-ase-linker": "ar560",
+      "ase": "R560",
+      "territory": "R562"
+    },
+    {
+      "terr-ase-linker": "ar570",
+      "ase": "R570",
+      "territory": "R571"
+    },
+    {
+      "terr-ase-linker": "ar60",
+      "ase": "R60",
+      "territory": "R61"
+    },
+    {
+      "terr-ase-linker": "ar610",
+      "ase": "R610",
+      "territory": "R611"
+    },
+    {
+      "terr-ase-linker": "ar610",
+      "ase": "R610",
+      "territory": "R612"
+    },
+    {
+      "terr-ase-linker": "ar60",
+      "ase": "R60",
+      "territory": "R62"
+    },
+    {
+      "terr-ase-linker": "ar620",
+      "ase": "R620",
+      "territory": "R621"
+    },
+    {
+      "terr-ase-linker": "ar620",
+      "ase": "R620",
+      "territory": "R622"
+    },
+    {
+      "terr-ase-linker": "ar630",
+      "ase": "R630",
+      "territory": "R631"
+    },
+    {
+      "terr-ase-linker": "ar640",
+      "ase": "R640",
+      "territory": "R641"
+    },
+    {
+      "terr-ase-linker": "ar640",
+      "ase": "R640",
+      "territory": "R642"
+    },
+    {
+      "terr-ase-linker": "ar650",
+      "ase": "R650",
+      "territory": "R651"
+    },
+    {
+      "terr-ase-linker": "ar660",
+      "ase": "R660",
+      "territory": "R661"
+    },
+    {
+      "terr-ase-linker": "ar660",
+      "ase": "R660",
+      "territory": "R662"
+    },
+    {
+      "terr-ase-linker": "ar670",
+      "ase": "R670",
+      "territory": "R671"
+    },
+    {
+      "terr-ase-linker": "ar670",
+      "ase": "R670",
+      "territory": "R672"
+    },
+    {
+      "terr-ase-linker": "as10",
+      "ase": "S10",
+      "territory": "S11"
+    },
+    {
+      "terr-ase-linker": "as10",
+      "ase": "S10",
+      "territory": "S12"
+    },
+    {
+      "terr-ase-linker": "as20",
+      "ase": "S20",
+      "territory": "S21"
+    },
+    {
+      "terr-ase-linker": "as210",
+      "ase": "S210",
+      "territory": "S211"
+    },
+    {
+      "terr-ase-linker": "as220",
+      "ase": "S220",
+      "territory": "S221"
+    },
+    {
+      "terr-ase-linker": "as220",
+      "ase": "S220",
+      "territory": "S222"
+    },
+    {
+      "terr-ase-linker": "as230",
+      "ase": "S230",
+      "territory": "S231"
+    },
+    {
+      "terr-ase-linker": "as240",
+      "ase": "S240",
+      "territory": "S241"
+    },
+    {
+      "terr-ase-linker": "as240",
+      "ase": "S240",
+      "territory": "S242"
+    },
+    {
+      "terr-ase-linker": "as250",
+      "ase": "S250",
+      "territory": "S251"
+    },
+    {
+      "terr-ase-linker": "as250",
+      "ase": "S250",
+      "territory": "S252"
+    },
+    {
+      "terr-ase-linker": "as260",
+      "ase": "S260",
+      "territory": "S261"
+    },
+    {
+      "terr-ase-linker": "as260",
+      "ase": "S260",
+      "territory": "S262"
+    },
+    {
+      "terr-ase-linker": "as270",
+      "ase": "S270",
+      "territory": "S271"
+    },
+    {
+      "terr-ase-linker": "as280",
+      "ase": "S280",
+      "territory": "S281"
+    },
+    {
+      "terr-ase-linker": "as280",
+      "ase": "S280",
+      "territory": "S282"
+    },
+    {
+      "terr-ase-linker": "as290",
+      "ase": "S290",
+      "territory": "S291"
+    },
+    {
+      "terr-ase-linker": "as290",
+      "ase": "S290",
+      "territory": "S292"
+    },
+    {
+      "terr-ase-linker": "as300",
+      "ase": "S300",
+      "territory": "S301"
+    },
+    {
+      "terr-ase-linker": "as300",
+      "ase": "S300",
+      "territory": "S302"
+    },
+    {
+      "terr-ase-linker": "as300",
+      "ase": "S300",
+      "territory": "S303"
+    },
+    {
+      "terr-ase-linker": "as30",
+      "ase": "S30",
+      "territory": "S31"
+    },
+    {
+      "terr-ase-linker": "as310",
+      "ase": "S310",
+      "territory": "S311"
+    },
+    {
+      "terr-ase-linker": "as310",
+      "ase": "S310",
+      "territory": "S312"
+    },
+    {
+      "terr-ase-linker": "as310",
+      "ase": "S310",
+      "territory": "S313"
+    },
+    {
+      "terr-ase-linker": "as320",
+      "ase": "S320",
+      "territory": "S321"
+    },
+    {
+      "terr-ase-linker": "as320",
+      "ase": "S320",
+      "territory": "S322"
+    },
+    {
+      "terr-ase-linker": "as320",
+      "ase": "S320",
+      "territory": "S323"
+    },
+    {
+      "terr-ase-linker": "as330",
+      "ase": "S330",
+      "territory": "S331"
+    },
+    {
+      "terr-ase-linker": "as330",
+      "ase": "S330",
+      "territory": "S332"
+    },
+    {
+      "terr-ase-linker": "as340",
+      "ase": "S340",
+      "territory": "S341"
+    },
+    {
+      "terr-ase-linker": "as340",
+      "ase": "S340",
+      "territory": "S342"
+    },
+    {
+      "terr-ase-linker": "as350",
+      "ase": "S350",
+      "territory": "S351"
+    },
+    {
+      "terr-ase-linker": "as350",
+      "ase": "S350",
+      "territory": "S352"
+    },
+    {
+      "terr-ase-linker": "as350",
+      "ase": "S350",
+      "territory": "S353"
+    },
+    {
+      "terr-ase-linker": "as360",
+      "ase": "S360",
+      "territory": "S361"
+    },
+    {
+      "terr-ase-linker": "as360",
+      "ase": "S360",
+      "territory": "S362"
+    },
+    {
+      "terr-ase-linker": "as360",
+      "ase": "S360",
+      "territory": "S363"
+    },
+    {
+      "terr-ase-linker": "as370",
+      "ase": "S370",
+      "territory": "S371"
+    },
+    {
+      "terr-ase-linker": "as370",
+      "ase": "S370",
+      "territory": "S372"
+    },
+    {
+      "terr-ase-linker": "as370",
+      "ase": "S370",
+      "territory": "S373"
+    },
+    {
+      "terr-ase-linker": "as40",
+      "ase": "S40",
+      "territory": "S41"
+    },
+    {
+      "terr-ase-linker": "as410",
+      "ase": "S410",
+      "territory": "S411"
+    },
+    {
+      "terr-ase-linker": "as410",
+      "ase": "S410",
+      "territory": "S412"
+    },
+    {
+      "terr-ase-linker": "as40",
+      "ase": "S40",
+      "territory": "S42"
+    },
+    {
+      "terr-ase-linker": "as420",
+      "ase": "S420",
+      "territory": "S421"
+    },
+    {
+      "terr-ase-linker": "as430",
+      "ase": "S430",
+      "territory": "S431"
+    },
+    {
+      "terr-ase-linker": "as430",
+      "ase": "S430",
+      "territory": "S432"
+    },
+    {
+      "terr-ase-linker": "as440",
+      "ase": "S440",
+      "territory": "S441"
+    },
+    {
+      "terr-ase-linker": "as440",
+      "ase": "S440",
+      "territory": "S442"
+    },
+    {
+      "terr-ase-linker": "as450",
+      "ase": "S450",
+      "territory": "S451"
+    },
+    {
+      "terr-ase-linker": "as450",
+      "ase": "S450",
+      "territory": "S452"
+    },
+    {
+      "terr-ase-linker": "as460",
+      "ase": "S460",
+      "territory": "S461"
+    },
+    {
+      "terr-ase-linker": "as460",
+      "ase": "S460",
+      "territory": "S462"
+    },
+    {
+      "terr-ase-linker": "as470",
+      "ase": "S470",
+      "territory": "S471"
+    },
+    {
+      "terr-ase-linker": "as480",
+      "ase": "S480",
+      "territory": "S481"
+    },
+    {
+      "terr-ase-linker": "as480",
+      "ase": "S480",
+      "territory": "S482"
+    },
+    {
+      "terr-ase-linker": "as490",
+      "ase": "S490",
+      "territory": "S491"
+    },
+    {
+      "terr-ase-linker": "as490",
+      "ase": "S490",
+      "territory": "S492"
+    },
+    {
+      "terr-ase-linker": "as50",
+      "ase": "S50",
+      "territory": "S51"
+    },
+    {
+      "terr-ase-linker": "as510",
+      "ase": "S510",
+      "territory": "S511"
+    },
+    {
+      "terr-ase-linker": "as510",
+      "ase": "S510",
+      "territory": "S512"
+    },
+    {
+      "terr-ase-linker": "as520",
+      "ase": "S520",
+      "territory": "S521"
+    },
+    {
+      "terr-ase-linker": "as520",
+      "ase": "S520",
+      "territory": "S522"
+    },
+    {
+      "terr-ase-linker": "as530",
+      "ase": "S530",
+      "territory": "S531"
+    },
+    {
+      "terr-ase-linker": "as530",
+      "ase": "S530",
+      "territory": "S532"
+    },
+    {
+      "terr-ase-linker": "as540",
+      "ase": "S540",
+      "territory": "S541"
+    },
+    {
+      "terr-ase-linker": "as540",
+      "ase": "S540",
+      "territory": "S542"
+    },
+    {
+      "terr-ase-linker": "as550",
+      "ase": "S550",
+      "territory": "S551"
+    },
+    {
+      "terr-ase-linker": "as550",
+      "ase": "S550",
+      "territory": "S552"
+    },
+    {
+      "terr-ase-linker": "as60",
+      "ase": "S60",
+      "territory": "S61"
+    },
+    {
+      "terr-ase-linker": "as60",
+      "ase": "S60",
+      "territory": "S62"
+    },
+    {
+      "terr-ase-linker": "as70",
+      "ase": "S70",
+      "territory": "S71"
+    },
+    {
+      "terr-ase-linker": "as710",
+      "ase": "S710",
+      "territory": "S711"
+    },
+    {
+      "terr-ase-linker": "as710",
+      "ase": "S710",
+      "territory": "S712"
+    },
+    {
+      "terr-ase-linker": "as70",
+      "ase": "S70",
+      "territory": "S72"
+    },
+    {
+      "terr-ase-linker": "as720",
+      "ase": "S720",
+      "territory": "S721"
+    },
+    {
+      "terr-ase-linker": "as720",
+      "ase": "S720",
+      "territory": "S722"
+    },
+    {
+      "terr-ase-linker": "as730",
+      "ase": "S730",
+      "territory": "S731"
+    },
+    {
+      "terr-ase-linker": "as730",
+      "ase": "S730",
+      "territory": "S732"
+    },
+    {
+      "terr-ase-linker": "as740",
+      "ase": "S740",
+      "territory": "S741"
+    },
+    {
+      "terr-ase-linker": "as740",
+      "ase": "S740",
+      "territory": "S742"
+    },
+    {
+      "terr-ase-linker": "as750",
+      "ase": "S750",
+      "territory": "S751"
+    },
+    {
+      "terr-ase-linker": "as750",
+      "ase": "S750",
+      "territory": "S752"
+    },
+    {
+      "terr-ase-linker": "as760",
+      "ase": "S760",
+      "territory": "S761"
+    },
+    {
+      "terr-ase-linker": "as760",
+      "ase": "S760",
+      "territory": "S762"
+    },
+    {
+      "terr-ase-linker": "as770",
+      "ase": "S770",
+      "territory": "S771"
+    },
+    {
+      "terr-ase-linker": "as770",
+      "ase": "S770",
+      "territory": "S772"
+    },
+    {
+      "terr-ase-linker": "as80",
+      "ase": "S80",
+      "territory": "S81"
+    },
+    {
+      "terr-ase-linker": "as80",
+      "ase": "S80",
+      "territory": "S82"
+    },
+    {
+      "terr-ase-linker": "as90",
+      "ase": "S90",
+      "territory": "S91"
+    },
+    {
+      "terr-ase-linker": "as90",
+      "ase": "S90",
+      "territory": "S92"
+    },
+    {
+      "terr-ase-linker": "at10",
+      "ase": "T10",
+      "territory": "T11"
+    },
+    {
+      "terr-ase-linker": "at10",
+      "ase": "T10",
+      "territory": "T12"
+    },
+    {
+      "terr-ase-linker": "at20",
+      "ase": "T20",
+      "territory": "T21"
+    },
+    {
+      "terr-ase-linker": "at210",
+      "ase": "T210",
+      "territory": "T211"
+    },
+    {
+      "terr-ase-linker": "at210",
+      "ase": "T210",
+      "territory": "T212"
+    },
+    {
+      "terr-ase-linker": "at220",
+      "ase": "T220",
+      "territory": "T221"
+    },
+    {
+      "terr-ase-linker": "at220",
+      "ase": "T220",
+      "territory": "T222"
+    },
+    {
+      "terr-ase-linker": "at230",
+      "ase": "T230",
+      "territory": "T231"
+    },
+    {
+      "terr-ase-linker": "at230",
+      "ase": "T230",
+      "territory": "T232"
+    },
+    {
+      "terr-ase-linker": "at240",
+      "ase": "T240",
+      "territory": "T241"
+    },
+    {
+      "terr-ase-linker": "at250",
+      "ase": "T250",
+      "territory": "T251"
+    },
+    {
+      "terr-ase-linker": "at260",
+      "ase": "T260",
+      "territory": "T261"
+    },
+    {
+      "terr-ase-linker": "at260",
+      "ase": "T260",
+      "territory": "T262"
+    },
+    {
+      "terr-ase-linker": "at30",
+      "ase": "T30",
+      "territory": "T31"
+    },
+    {
+      "terr-ase-linker": "at40",
+      "ase": "T40",
+      "territory": "T41"
+    },
+    {
+      "terr-ase-linker": "at40",
+      "ase": "T40",
+      "territory": "T42"
+    },
+    {
+      "terr-ase-linker": "at50",
+      "ase": "T50",
+      "territory": "T51"
+    },
+    {
+      "terr-ase-linker": "at50",
+      "ase": "T50",
+      "territory": "T52"
+    },
+    {
+      "terr-ase-linker": "at60",
+      "ase": "T60",
+      "territory": "T61"
+    },
+    {
+      "terr-ase-linker": "at60",
+      "ase": "T60",
+      "territory": "T62"
+    },
+    {
+      "terr-ase-linker": "at70",
+      "ase": "T70",
+      "territory": "T71"
+    },
+    {
+      "terr-ase-linker": "at70",
+      "ase": "T70",
+      "territory": "T72"
+    },
+    {
+      "terr-ase-linker": "at80",
+      "ase": "T80",
+      "territory": "T81"
+    },
+    {
+      "terr-ase-linker": "at80",
+      "ase": "T80",
+      "territory": "T82"
+    },
+    {
+      "terr-ase-linker": "au500",
+      "ase": "U500",
+      "territory": "U501"
+    },
+    {
+      "terr-ase-linker": "au500",
+      "ase": "U500",
+      "territory": "U502"
+    },
+    {
+      "terr-ase-linker": "au500",
+      "ase": "U500",
+      "territory": "U503"
+    },
+    {
+      "terr-ase-linker": "au500",
+      "ase": "U500",
+      "territory": "U504"
+    },
+    {
+      "terr-ase-linker": "au510",
+      "ase": "U510",
+      "territory": "U511"
+    },
+    {
+      "terr-ase-linker": "au510",
+      "ase": "U510",
+      "territory": "U512"
+    },
+    {
+      "terr-ase-linker": "au510",
+      "ase": "U510",
+      "territory": "U513"
+    },
+    {
+      "terr-ase-linker": "au520",
+      "ase": "U520",
+      "territory": "U521"
+    },
+    {
+      "terr-ase-linker": "au520",
+      "ase": "U520",
+      "territory": "U522"
+    },
+    {
+      "terr-ase-linker": "au520",
+      "ase": "U520",
+      "territory": "U523"
+    },
+    {
+      "terr-ase-linker": "au530",
+      "ase": "U530",
+      "territory": "U531"
+    },
+    {
+      "terr-ase-linker": "au530",
+      "ase": "U530",
+      "territory": "U532"
+    },
+    {
+      "terr-ase-linker": "au530",
+      "ase": "U530",
+      "territory": "U533"
+    },
+    {
+      "terr-ase-linker": "au540",
+      "ase": "U540",
+      "territory": "U541"
+    },
+    {
+      "terr-ase-linker": "au540",
+      "ase": "U540",
+      "territory": "U542"
+    },
+    {
+      "terr-ase-linker": "au540",
+      "ase": "U540",
+      "territory": "U543"
+    },
+    {
+      "terr-ase-linker": "au550",
+      "ase": "U550",
+      "territory": "U551"
+    },
+    {
+      "terr-ase-linker": "au550",
+      "ase": "U550",
+      "territory": "U552"
+    },
+    {
+      "terr-ase-linker": "au550",
+      "ase": "U550",
+      "territory": "U553"
+    },
+    {
+      "terr-ase-linker": "ax10",
+      "ase": "X10",
+      "territory": "X11"
+    },
+    {
+      "terr-ase-linker": "ax10",
+      "ase": "X10",
+      "territory": "X12"
+    },
+    {
+      "terr-ase-linker": "ax20",
+      "ase": "X20",
+      "territory": "X21"
+    },
+    {
+      "terr-ase-linker": "ax20",
+      "ase": "X20",
+      "territory": "X22"
+    },
+    {
+      "terr-ase-linker": "ax30",
+      "ase": "X30",
+      "territory": "X31"
+    },
+    {
+      "terr-ase-linker": "ax30",
+      "ase": "X30",
+      "territory": "X32"
+    },
+    {
+      "terr-ase-linker": "ax40",
+      "ase": "X40",
+      "territory": "X41"
+    },
+    {
+      "terr-ase-linker": "ax40",
+      "ase": "X40",
+      "territory": "X42"
+    },
+    {
+      "terr-ase-linker": "ax50",
+      "ase": "X50",
+      "territory": "X51"
+    },
+    {
+      "terr-ase-linker": "ax50",
+      "ase": "X50",
+      "territory": "X52"
+    },
+    {
+      "terr-ase-linker": "ax60",
+      "ase": "X60",
+      "territory": "X61"
+    },
+    {
+      "terr-ase-linker": "ax60",
+      "ase": "X60",
+      "territory": "X62"
+    },
+    {
+      "terr-ase-linker": "ax70",
+      "ase": "X70",
+      "territory": "X71"
+    },
+    {
+      "terr-ase-linker": "ax70",
+      "ase": "X70",
+      "territory": "X72"
+    }
+  ]

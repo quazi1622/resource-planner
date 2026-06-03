@@ -1,0 +1,402 @@
+@import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.glass-shell {
+  background:
+    radial-gradient(ellipse at 18% 15%, rgba(186, 230, 253, 0.95) 0%, rgba(56, 189, 248, 0.42) 22%, transparent 42%),
+    radial-gradient(ellipse at 84% 10%, rgba(153, 246, 228, 0.9) 0%, rgba(14, 165, 233, 0.5) 26%, transparent 48%),
+    radial-gradient(ellipse at 54% 88%, rgba(29, 78, 216, 0.46) 0%, rgba(14, 165, 233, 0.24) 34%, transparent 66%),
+    linear-gradient(135deg, #dff7ff 0%, #eaf9ff 32%, #d7f8f4 58%, #eff8ff 100%) !important;
+  color: #0f172a;
+  isolation: isolate;
+  position: relative;
+}
+
+.glass-shell::before {
+  background-image:
+    linear-gradient(115deg, transparent 0%, rgba(255, 255, 255, 0.5) 18%, transparent 34%),
+    linear-gradient(rgba(255, 255, 255, 0.18) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.14) 1px, transparent 1px);
+  background-size: 100% 100%, 38px 38px, 38px 38px;
+  content: "";
+  inset: 0;
+  opacity: 0.78;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+}
+
+.glass-shell::after {
+  background:
+    linear-gradient(118deg, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.34) 44%, rgba(255, 255, 255, 0.0) 62%),
+    radial-gradient(ellipse at 20% 80%, rgba(59, 130, 246, 0.34), transparent 38%),
+    radial-gradient(ellipse at 92% 82%, rgba(45, 212, 191, 0.3), transparent 34%);
+  content: "";
+  filter: blur(0.2px);
+  inset: 0;
+  mix-blend-mode: soft-light;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+}
+
+.glass-shell > * {
+  position: relative;
+  z-index: 1;
+}
+
+.glass-shell header,
+.glass-shell aside,
+.glass-shell section,
+.glass-shell .bg-white {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.58), rgba(224, 247, 255, 0.26) 42%, rgba(255, 255, 255, 0.42)),
+    rgba(255, 255, 255, 0.28) !important;
+  border: 1px solid rgba(255, 255, 255, 0.72) !important;
+  box-shadow:
+    0 28px 70px rgba(15, 23, 42, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.95),
+    inset 0 -1px 0 rgba(14, 165, 233, 0.1) !important;
+  backdrop-filter: blur(28px) saturate(180%) brightness(1.08);
+  -webkit-backdrop-filter: blur(28px) saturate(180%) brightness(1.08);
+}
+
+.glass-shell aside,
+.glass-shell section {
+  border-radius: 22px !important;
+  overflow: hidden;
+  position: relative;
+}
+
+.glass-shell aside::before,
+.glass-shell section::before,
+.glass-shell header::before {
+  background:
+    linear-gradient(132deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.14) 28%, transparent 48%),
+    radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.62), transparent 26%);
+  content: "";
+  inset: 0;
+  opacity: 0.72;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+}
+
+.glass-shell aside > *,
+.glass-shell section > *,
+.glass-shell header > * {
+  position: relative;
+  z-index: 1;
+}
+
+.glass-shell .bg-slate-50,
+.glass-shell .bg-gray-50,
+.glass-shell .bg-slate-100 {
+  background: rgba(255, 255, 255, 0.28) !important;
+  border-color: rgba(255, 255, 255, 0.48) !important;
+  backdrop-filter: blur(18px) saturate(160%);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+}
+
+.glass-shell input,
+.glass-shell textarea,
+.glass-shell select {
+  background: rgba(255, 255, 255, 0.42) !important;
+  border-color: rgba(255, 255, 255, 0.58) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    inset 0 -1px 0 rgba(14, 165, 233, 0.08),
+    0 14px 34px rgba(15, 23, 42, 0.07);
+  backdrop-filter: blur(20px) saturate(170%);
+  -webkit-backdrop-filter: blur(20px) saturate(170%);
+}
+
+.glass-shell button,
+.glass-shell a {
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.42);
+  backdrop-filter: blur(18px) saturate(160%);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+}
+
+.glass-shell button:not([class*="bg-slate-950"]):not([class*="bg-sky-600"]),
+.glass-shell a:not([class*="bg-sky-600"]) {
+  background: rgba(255, 255, 255, 0.38) !important;
+  border-color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.glass-shell table tr {
+  border-color: rgba(148, 163, 184, 0.16) !important;
+}
+
+.glass-shell .maplibregl-map {
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.glass-shell .maplibregl-ctrl-group,
+.glass-shell .maplibregl-popup-content {
+  background: rgba(255, 255, 255, 0.54) !important;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  box-shadow: 0 20px 44px rgba(15, 23, 42, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+}
+
+.glass-shell [class*="border-slate"],
+.glass-shell [class*="border-gray"] {
+  border-color: rgba(255, 255, 255, 0.52) !important;
+}
+
+.glass-shell [class*="shadow-sm"] {
+  box-shadow:
+    0 24px 58px rgba(15, 23, 42, 0.13),
+    inset 0 1px 0 rgba(255, 255, 255, 0.88) !important;
+}
+
+.glass-shell [class*="rounded-md"] {
+  border-radius: 14px !important;
+}
+
+.rp-map-marker {
+  align-items: center;
+  border: 2px solid #ffffff;
+  border-radius: 999px 999px 999px 4px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.28);
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-size: 11px;
+  font-weight: 900;
+  height: 34px;
+  justify-content: center;
+  line-height: 1;
+  transform: rotate(-45deg);
+  width: 34px;
+}
+
+.rp-map-marker::after {
+  border-radius: 999px;
+  content: "";
+  inset: 6px;
+  position: absolute;
+}
+
+.rp-map-marker span {
+  align-items: center;
+  background: #0f172a;
+  border: 2px solid #ffffff;
+  border-radius: 999px;
+  bottom: 6px;
+  box-shadow: 0 6px 12px rgba(15, 23, 42, 0.22);
+  display: flex;
+  font-size: 10px;
+  height: 20px;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  transform: none;
+  width: 20px;
+  z-index: 2;
+}
+
+.rp-map-marker-doctor {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  height: 58px;
+  overflow: visible;
+  transform: none;
+  width: 58px;
+}
+
+.rp-map-marker-chemist {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  height: 48px;
+  overflow: visible;
+  transform: none;
+  width: 48px;
+}
+
+.rp-map-marker {
+  position: relative;
+}
+
+.rp-map-marker-doctor::after {
+  display: none;
+}
+
+.rp-map-marker-chemist::after {
+  display: none;
+}
+
+.rp-map-marker {
+  text-shadow: 0 1px 2px rgba(15, 23, 42, 0.45);
+}
+
+.rp-map-marker-doctor,
+.rp-map-marker-chemist {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rp-map-marker-doctor,
+.rp-map-marker-chemist {
+  isolation: isolate;
+}
+
+.rp-map-marker-doctor,
+.rp-map-marker-chemist {
+  z-index: 1;
+}
+
+.rp-map-marker-doctor,
+.rp-map-marker-chemist {
+  box-sizing: border-box;
+}
+
+.rp-map-marker-doctor,
+.rp-map-marker-chemist {
+  user-select: none;
+}
+
+.rp-map-marker-doctor,
+.rp-map-marker-chemist {
+  -webkit-user-select: none;
+}
+
+.rp-map-marker-doctor,
+.rp-map-marker-chemist {
+  pointer-events: auto;
+}
+
+.rp-map-marker-doctor,
+.rp-map-marker-chemist {
+  will-change: transform;
+}
+
+.rp-map-marker-doctor,
+.rp-map-marker-chemist {
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+
+.rp-map-marker:hover {
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.36);
+}
+
+.rp-map-marker-doctor:hover {
+  box-shadow: none;
+}
+
+.rp-map-marker-chemist:hover {
+  box-shadow: none;
+}
+
+.rp-map-marker-doctor img,
+.rp-map-marker-chemist img {
+  display: block;
+  filter: drop-shadow(0 10px 16px rgba(15, 23, 42, 0.32));
+  object-fit: contain;
+}
+
+.rp-map-marker-doctor img {
+  height: 58px;
+  width: 58px;
+}
+
+.rp-map-marker-chemist img {
+  height: 48px;
+  width: 48px;
+}
+
+.rp-map-marker,
+.rp-map-marker > * {
+  transform-origin: center;
+}
+
+.rp-map-marker {
+  text-align: center;
+}
+
+.rp-map-marker {
+  padding-top: 1px;
+}
+
+.rp-map-marker {
+  font-variant-numeric: tabular-nums;
+}
+
+.rp-map-marker {
+  letter-spacing: 0;
+}
+
+.rp-map-marker {
+  overflow: hidden;
+}
+
+.rp-map-marker {
+  white-space: nowrap;
+}
+
+.rp-map-marker {
+  contain: paint;
+}
+
+.rp-map-marker-doctor,
+.rp-map-marker-chemist {
+  contain: layout;
+  overflow: visible;
+  padding-top: 0;
+}
+
+.maplibregl-popup-content {
+  border-radius: 8px;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.18);
+  padding: 12px;
+}
+
+.rp-map-popup {
+  max-width: 240px;
+}
+
+.rp-map-popup-title {
+  color: #0f172a;
+  font-size: 13px;
+  font-weight: 900;
+  margin-bottom: 6px;
+}
+
+.rp-map-popup p {
+  color: #475569;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.45;
+  margin: 3px 0;
+}
