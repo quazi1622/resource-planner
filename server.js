@@ -1,4 +1,10 @@
-require('dotenv').config();
+if (process.env.NODE_ENV !== "production") {
+  try {
+    require("dotenv").config();
+  } catch {
+    // Vercel and other production hosts provide environment variables directly.
+  }
+}
 const express = require("express");
 const cors = require("cors");
 const { chromium } = require("playwright");
