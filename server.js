@@ -7,7 +7,6 @@ if (process.env.NODE_ENV !== "production") {
 }
 const express = require("express");
 const cors = require("cors");
-const { chromium } = require("playwright");
 const genericPool = require("generic-pool");
 const pLimit = require("p-limit").default;
 const NodeCache = require("node-cache");
@@ -75,6 +74,7 @@ const browserPool = genericPool.createPool(
   {
     create: async () => {
       console.log("Spawning new browser instance...");
+      const { chromium } = require("playwright");
       return await chromium.launch({ headless: true });
     },
     destroy: async (browser) => {
@@ -564,37 +564,28 @@ async function fetchCoordinates(placeName) {
     return cached;
   }
 
-  const browser = await browserPool.acquire();
-  const page = await browser.newPage();
+  const geocodeData = await fetchGoogleJson("https://maps.googleapis.com/maps/api/geocode/json", {
+    address: placeName,
+    region: "bd",
+  });
 
-  try {
-    const searchUrl = "https://www.google.com/maps/search/" + encodeURIComponent(placeName);
-    await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 60000 });
+  const [match] = geocodeData.results || [];
+  const location = match?.geometry?.location;
+  if (!location) throw new Error(`No coordinates found for "${placeName}"`);
 
-    // Wait for URL to resolve to coordinates instead of blind timeout
-    await page.waitForURL(/\/@-?\d+\.\d+,-?\d+\.\d+/, { timeout: 15000 });
+  const result = {
+    lat: location.lat,
+    lng: location.lng,
+    place: placeName,
+    formattedAddress: match.formatted_address,
+    placeId: match.place_id,
+    source: "google_geocoding",
+  };
 
-    const currentUrl = page.url();
-    console.log("Resolved URL:", currentUrl);
+  coordCache.set(cacheKey, result);
+  console.log(`Cached: "${placeName}" -> ${result.lat}, ${result.lng}`);
 
-    const match = currentUrl.match(/@(-?\d+\.\d+),(-?\d+\.\d+)/);
-    if (!match) throw new Error("Could not extract coordinates from URL");
-
-    const result = {
-      lat: parseFloat(match[1]),
-      lng: parseFloat(match[2]),
-      place: placeName,
-    };
-
-    // Store in cache
-    coordCache.set(cacheKey, result);
-    console.log(`Cached: "${placeName}" → ${result.lat}, ${result.lng}`);
-
-    return result;
-  } finally {
-    await page.close();
-    browserPool.release(browser);
-  }
+  return result;
 }
 
 // ─── GET /fetch-coordinates?place=Dhaka Medical College ──────────────────────
