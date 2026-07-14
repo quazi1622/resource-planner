@@ -8,7 +8,6 @@ if (process.env.NODE_ENV !== "production") {
 const express = require("express");
 const cors = require("cors");
 const genericPool = require("generic-pool");
-const pLimit = require("p-limit").default;
 const NodeCache = require("node-cache");
 const { createClient } = require("@supabase/supabase-js");
 
@@ -91,8 +90,32 @@ const browserPool = genericPool.createPool(
 );
 
 // ─── CONCURRENCY LIMITER: max 5 parallel geocode jobs ────────────────────────
-const limit = pLimit(5);
-const pharmacyLimit = pLimit(3);
+function createConcurrencyLimit(concurrency) {
+  let activeCount = 0;
+  const queue = [];
+
+  const next = () => {
+    if (activeCount >= concurrency || queue.length === 0) return;
+    activeCount += 1;
+    const { fn, resolve, reject } = queue.shift();
+
+    Promise.resolve()
+      .then(fn)
+      .then(resolve, reject)
+      .finally(() => {
+        activeCount -= 1;
+        next();
+      });
+  };
+
+  return fn => new Promise((resolve, reject) => {
+    queue.push({ fn, resolve, reject });
+    next();
+  });
+}
+
+const coordinateLimit = createConcurrencyLimit(5);
+const pharmacyLimit = createConcurrencyLimit(3);
 
 function normalizeAddress(address = "") {
   return String(address)
@@ -595,7 +618,7 @@ app.get("/fetch-coordinates", async (req, res) => {
     if (!place) return res.status(400).json({ success: false, error: "Place name is required" });
 
     // Queue the request through the concurrency limiter
-    const coords = await limit(() => fetchCoordinates(place));
+    const coords = await coordinateLimit(() => fetchCoordinates(place));
     res.json({ success: true, ...coords });
   } catch (err) {
     console.error("Geocode error:", err.message);
